@@ -1,0 +1,1 @@
+execute in minecraft:overworld run execute at @e[type=minecraft:item,nbt={Item: {id: "minecraft:filled_map", tag: {HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, OnGround: 1b}] run function chibreworld:tp_maps/tp_map

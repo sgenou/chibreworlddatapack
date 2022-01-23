@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Déplacement rapides",
+            "bold": false
+        },
+        "description": {
+            "text": "Lorsque vous vous déplacez sur un chemin en herbe battue ou en graviers et que vous avez une potion dans une de vos deux main, vous recevez une accélération",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:dirt_path"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

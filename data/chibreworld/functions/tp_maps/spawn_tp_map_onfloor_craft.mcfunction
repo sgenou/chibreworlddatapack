@@ -1,0 +1,4 @@
+scoreboard players set @e[type=minecraft:item,nbt={Item: {id: "minecraft:enchanting_table"}, OnGround: 1b}] AKiSZ_I 1
+scoreboard players set @e[type=minecraft:item,nbt={Item: {id: "minecraft:compass"}, OnGround: 1b}] AKiSZ_I 2
+execute at @e[scores={AKiSZ_I=1}] run execute at @e[distance=..1,scores={AKiSZ_I=2}] run give @p filled_map{map:37,Enchantments:[{id:"unbreaking",lvl:1s}],display:{Name:'"TP_Spawnpoint"',Lore:['"Cette carte téléporte"','"au spawnpoint"','"toute entitée autour"','"d\'elle dans un"','"rayon de un bloc"','"quand elle"','"est jetée au sol"']},HideFlags:1} 1
+execute at @e[scores={AKiSZ_I=1}] run execute at @e[distance=..1,scores={AKiSZ_I=2}] run kill @e[type=minecraft:item,scores={AKiSZ_I=..2},distance=..3]

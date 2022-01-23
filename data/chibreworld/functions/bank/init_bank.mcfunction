@@ -1,0 +1,3 @@
+function chibreworld:bank/check_bank_setup
+
+execute if entity @e[type=minecraft:armor_stand,tag=diamond_withdrawal_zone,distance=..10] if entity @e[type=minecraft:armor_stand,tag=gold_withdrawal_zone,distance=..10] if entity @e[type=minecraft:armor_stand,tag=iron_withdrawal_zone,distance=..10] if entity @e[type=minecraft:armor_stand,tag=coal_withdrawal_zone,distance=..10] if entity @e[type=minecraft:armor_stand,tag=bank_display_zone,distance=..10] if entity @e[type=minecraft:armor_stand,tag=bank_deposit_zone,distance=..10] run function chibreworld:bank/init_bank_ok

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "La banque du charbon",
+            "bold": false
+        },
+        "description": {
+            "text": "Un système bancaire avec des banques ou il est possible de déposer les blocs de charbon, fer, or et diamant en les posant sur le comptoir.\nDes pancartes de retrait permettent de retirer des blocs de minerais.\nUne pancarte affiche le solde de l'utilisateur à proximité des points de dépot",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

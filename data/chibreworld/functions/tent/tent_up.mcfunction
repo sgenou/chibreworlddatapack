@@ -1,0 +1,5 @@
+execute at @e[type=minecraft:squid,name="Tente"] run execute unless blocks -129 61 290 -126 63 294 ~-2 ~ ~-2 all run execute at @e[type=minecraft:squid,name="Tente"] run tell @p Le terrain doit être dégagé pour monter la tente
+execute at @e[type=minecraft:squid,name="Tente"] run execute unless blocks -129 61 290 -126 63 294 ~-2 ~ ~-2 all run execute at @e[type=minecraft:squid,name="Tente"] run summon minecraft:item ~ ~1 ~ {Item: {id: "squid_spawn_egg", Count: 1, tag: {Enchantments: [{id: "unbreaking", lvl: 1}], display: {Name: '"Tente"', Lore: ['"Monte une tente"', '"Clic droit au sol sur un terrain dégagé"']}, HideFlags: 1}}}
+execute at @e[type=minecraft:squid,name="Tente"] run execute if blocks -129 61 290 -126 63 294 ~-2 ~ ~-2 all run execute at @e[type=minecraft:squid,name="Tente"] run clone -134 61 290 -130 63 294 ~-2 ~ ~-2
+#execute at @e[type=minecraft:squid,name=Tente] run dynmap:dynmap radiusrender 3
+execute at @e[type=minecraft:squid,name="Tente"] run execute at @e[type=minecraft:squid,name="Tente"] run tp @e[type=minecraft:squid,name="Tente"] ~ ~-512 ~

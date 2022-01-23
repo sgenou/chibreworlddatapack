@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data merge block ~ ~ ~ {Text1: "{\"text\":\"Votre solde\",\"color\":\"blue\"}", Text2: "{\"text\":\"actuel :\",\"color\":\"blue\"}", Text3: "{\"text\":\"\"}", Text4: "{\"score\":{\"name\":\"@p[distance=..10]\",\"objective\":\"Coal\"},\"color\":\"red\"}"}

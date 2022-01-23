@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Le message de bienvenue",
+            "bold": false
+        },
+        "description": {
+            "text": "Un message de bienvenue vous accueille et vous indique les joueurs connectés, des liens vers le blog et les autres outils du serveur ainsi que quelques informations complémentaires",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

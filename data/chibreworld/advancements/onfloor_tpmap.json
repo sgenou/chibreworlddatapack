@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Carte de retour au spawn",
+            "bold": false
+        },
+        "description": {
+            "text": "Vous obtenez une carte de téléportation au spawnpoint en jetant une boussole et une table d'enchantement au sol",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

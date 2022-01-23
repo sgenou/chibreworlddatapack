@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Des cartes de téléportation",
+            "bold": false
+        },
+        "description": {
+            "text": "Des cartes magiques, vendues chez le marchand de cartes de téléporation, qui permettent de se téléporter aux quatres coins de ChibWorld.",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

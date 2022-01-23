@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:bee",
+        "minecraft:bat",
+        "#chibreworld:fishes",
+        "minecraft:fox",
+        "minecraft:ocelot",
+        "minecraft:panda",
+        "minecraft:polar_bear",
+        "minecraft:rabbit"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Des marchands personnalisés",
+            "bold": false
+        },
+        "description": {
+            "text": "Un certain nombre de villageois personnalisés vous vendent et achetent des objets ou vous rendent des services.",
+            "italic": true
+        },
+        "icon": {
+			"item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;2000904715,-769637957,-1117463881,-54157356],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZjNmFjOWQ4NTU1NGJiZTU2YTY2NjhkZTBhNTRjYjFlZmY5M2UxNGY0YmNkZjcyNDVhNzQ0Y2MzNzcyMWYwYSJ9fX0='}]}}}"
+		},
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

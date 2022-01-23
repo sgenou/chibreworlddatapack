@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Stockage d'XP",
+            "bold": false
+        },
+        "description": {
+            "text": "S'accroupir sur un bloc d'émeraude avec une fiole vide dans la main transfère l'XP dans des fioles.\n\nS'accroupir sur un bloc d'émeraude avec une émeraude dans la main transfère le contenu des fioles d'XP dans l'inventaire au joueur.",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
