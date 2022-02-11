@@ -1,1 +1,0 @@
-execute at @e[type=minecraft:item,nbt={Item: {id: "minecraft:ladder", tag: {Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], HideFlags: 1}}, OnGround: 1b}] run function chibreworld:lifts/place_lift
