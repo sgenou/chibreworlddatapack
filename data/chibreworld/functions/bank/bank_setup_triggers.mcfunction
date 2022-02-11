@@ -11,12 +11,6 @@ execute at @p[scores={cst_point_remove=1..},nbt={SelectedItem: {id: "minecraft:w
 
 
 # Reinitialisation des triggers
-# scoreboard players set @p[scores={cst_bank_display=1..}] cst_bank_display 0
-scoreboard players set @p[scores={cst_bank_deposit=1..}] cst_bank_deposit 0
-scoreboard players set @p[scores={cst_coal_wthdraw=1..}] cst_coal_wthdraw 0
-scoreboard players set @p[scores={cst_iron_wthdraw=1..}] cst_iron_wthdraw 0
-scoreboard players set @p[scores={cst_gold_wthdraw=1..}] cst_gold_wthdraw 0
-scoreboard players set @p[scores={cst_diam_wthdraw=1..}] cst_diam_wthdraw 0
 scoreboard players set @p[scores={check_bank_setup=1..}] check_bank_setup 0
 scoreboard players set @p[scores={init_bank=1..}] init_bank 0
 scoreboard players set @p[scores={cst_point_remove=1..}] cst_point_remove 0
