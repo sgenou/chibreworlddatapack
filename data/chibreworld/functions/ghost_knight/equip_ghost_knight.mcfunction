@@ -16,7 +16,6 @@ execute at @e[type=minecraft:armor_stand,tag=ghost_totem] run data modify entity
 # On le rend invisible
 execute at @e[type=minecraft:armor_stand,tag=ghost_totem] run effect give @e[tag=ghost_knight,sort=nearest,limit=1] invisibility 30000
 
-
 # On le boost
 data merge entity @e[tag=ghost_knight,sort=nearest,limit=1] {Attributes: [{Base: 0.8d, Name: "generic.movement_speed"}]}
 
