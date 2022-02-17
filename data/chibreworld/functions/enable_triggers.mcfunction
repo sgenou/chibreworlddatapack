@@ -38,6 +38,7 @@ scoreboard players enable @a sumMDAMagiques
 scoreboard players enable @a sumMDeBois
 scoreboard players enable @a sumMDeChevaux
 scoreboard players enable @a sumMDeDisques
+scoreboard players enable @a sumCopperMerc
 scoreboard players enable @a sumMDFEtLegumes
 scoreboard players enable @a sumMDPDeLaMer
 scoreboard players enable @a sumMDeRedstone

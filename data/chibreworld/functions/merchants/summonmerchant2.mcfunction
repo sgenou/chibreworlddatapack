@@ -32,6 +32,7 @@ execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:wr
 execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
 execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
 execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
 
 #Etiquettage du marchand
 execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spawnAlchimiste
@@ -67,6 +68,7 @@ execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:wr
 execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDyeMerchant
 execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnTPMerchant
 execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnNether
+execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnCopMerc
 
 #Mise à jour des marchands
 function chibreworld:merchants/merchant_update
@@ -105,6 +107,7 @@ execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:wr
 execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book{title: "Livre des marchands"} 1
 execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book{title: "Livre des marchands"} 1
 execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book{title: "Livre des marchands"} 1
+execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book{title: "Livre des marchands"} 1
 
 #Affichage du message de réussite
 execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
@@ -140,6 +143,7 @@ execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:wr
 execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
 execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
 execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
 
 # Selection de marchand
 execute at @p[scores={selmerchant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/selectnearestcustommerchant
@@ -182,6 +186,7 @@ scoreboard players set @p[scores={sumSDSalonDeThe=1..}] sumSDSalonDeThe 0
 scoreboard players set @p[scores={sumTanneur=1..}] sumTanneur 0
 scoreboard players set @p[scores={sumVDCDTelep=1..}] sumVDCDTelep 0
 scoreboard players set @p[scores={sumVDPDNEDeLEnd=1..}] sumVDPDNEDeLEnd 0
+scoreboard players set @p[scores={sumCopperMerc=1..}] sumCopperMerc 0
 scoreboard players set @p[scores={selmerchant=1..}] selmerchant 0
 scoreboard players set @p[scores={delmerchant=1..}] delmerchant 0
 scoreboard players set @p[scores={movemerchant=1..}] movemerchant 0

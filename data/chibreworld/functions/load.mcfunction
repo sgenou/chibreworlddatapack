@@ -38,6 +38,7 @@ scoreboard objectives add sumMDAMagiques trigger
 scoreboard objectives add sumMDeBois trigger
 scoreboard objectives add sumMDeChevaux trigger
 scoreboard objectives add sumMDeDisques trigger
+scoreboard objectives add sumCopperMerc trigger
 scoreboard objectives add sumMDFEtLegumes trigger
 scoreboard objectives add sumMDPDeLaMer trigger
 scoreboard objectives add sumMDeRedstone trigger
