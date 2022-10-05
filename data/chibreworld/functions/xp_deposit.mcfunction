@@ -8,4 +8,4 @@ execute at @a[scores={sneaking=1..},nbt={SelectedItem: {id: "minecraft:emerald"}
 execute at @a[scores={sneaking=1..,xp_withdraw=1..},nbt={SelectedItem: {id: "minecraft:emerald"}}] if block ~ ~-1 ~ minecraft:emerald_block run xp add @p 7 points
 execute at @a[scores={sneaking=1..,xp_withdraw=1..},nbt={SelectedItem: {id: "minecraft:emerald"}}] if block ~ ~-1 ~ minecraft:emerald_block run scoreboard players remove @p xp_withdraw 1
 
-scoreboard players set @a[scores={sneaking=1..}] sneaking 0
+scoreboard players set @a[scores={sneaking=1..},nbt={SelectedItem: {id: "minecraft:emerald"}}] sneaking 0

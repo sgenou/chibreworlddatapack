@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Téléportation de regroupement",
+            "bold": false
+        },
+        "description": {
+            "text": "Accroupissez vous avec cette plume dans la main et vos amis accroupis avec une plume normale dans la main se téléporterons à vous",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chibreworld:root",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
