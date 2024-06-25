@@ -9,7 +9,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:emerald"
+            "id": "minecraft:emerald"
         },
         "frame": "task",
         "show_toast": false,

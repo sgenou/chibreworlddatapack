@@ -6,5 +6,5 @@
 		"S":{"item":"minecraft:saddle"},
 		"T":{"item":"minecraft:string"}
 	},
-	"result":{"item":"minecraft:iron_horse_armor"}
+	"result":{"id":"minecraft:iron_horse_armor"}
 }

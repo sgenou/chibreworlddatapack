@@ -5,7 +5,7 @@ execute if block ~ ~ ~ #minecraft:signs run data merge block ~ ~ ~ {Text1: "{\"t
 # Si on trouve une pancarte on indique qu'on a placé les commandes
 execute if block ~ ~ ~ #minecraft:signs run tellraw @p[scores={cast_up5=1..}] ["",{"text":"Ascenseur posé: ","color":"dark_green"},{"text":"5 blocs vers le haut","color":"gold"},{"text":"\n/!\\ ","color":"red"},{"text":"Assurez vous que la zone de destination est accessible ","color":"gold"}]
 # Si on trouve une pancarte on supprime un livre au lanceur le plus proche
-execute if block ~ ~ ~ #minecraft:signs run clear @p[scores={cast_up5=1..}] minecraft:written_book{title: "Livre des ascenseurs"} 1
+execute if block ~ ~ ~ #minecraft:signs run clear @p[scores={cast_up5=1..}] minecraft:written_book[minecraft:written_book_content~{title:'"Livre des ascenseurs"'}] 1
 # Si on a supprimé le livre on desenregistre le lanceur
 execute if block ~ ~ ~ #minecraft:signs run scoreboard players set @p[scores={cast_up5=1..}] cast_up5 0
 # Si on a mis trop de temps on indique que ça n'a pas fonctionné

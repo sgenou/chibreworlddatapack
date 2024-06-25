@@ -9,7 +9,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:dirt_path"
+            "id": "minecraft:dirt_path"
         },
         "frame": "task",
         "show_toast": false,

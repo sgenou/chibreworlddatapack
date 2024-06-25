@@ -10,7 +10,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "id": "minecraft:enchanted_book"
         },
         "frame": "task",
         "show_toast": false,

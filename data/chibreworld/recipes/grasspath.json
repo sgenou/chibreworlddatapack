@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:dirt_path",
+        "id": "minecraft:dirt_path",
         "count": 1
     }
 }

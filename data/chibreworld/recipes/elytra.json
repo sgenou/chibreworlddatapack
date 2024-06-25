@@ -8,5 +8,5 @@
 		"L":{"item":"minecraft:leather"},
 		"D":{"item":"minecraft:diamond_chestplate"}
 	},
-	"result":{"item":"minecraft:elytra"}
+	"result":{"id":"minecraft:elytra"}
 }

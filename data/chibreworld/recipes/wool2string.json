@@ -3,5 +3,5 @@
 	"ingredients":[
 		{"item":"minecraft:white_wool"}
 	],
-	"result":{"item":"minecraft:string","count":4}
+	"result":{"id":"minecraft:string","count":4}
 }
