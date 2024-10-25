@@ -1,3 +1,4 @@
+# 1.20.6 TODO
 # Dépot à la banque
 execute if entity @e[type=minecraft:armor_stand,tag=bank_deposit] at @e[type=minecraft:armor_stand,tag=bank_deposit] run execute unless block ~ ~2 ~ minecraft:air run function chibreworld:bank/bank_deposit
 
