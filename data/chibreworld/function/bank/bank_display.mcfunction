@@ -1,1 +1,5 @@
-execute at @e[type=minecraft:armor_stand,tag=bank_display] run data merge block ~ ~ ~ {front_text: {has_glowing_text: 0b, color: "blue", messages: ['{"text":"Votre solde"}', '{"text":"actuel :"}', '{"text":""}', '{"score":{"name":"@p[distance=..10]","objective":"Coal"},"color":"red"}"}']}, is_waxed: 0b, back_text: {has_glowing_text: 0b, color: "black", messages: ['{"text":""}', '{"text":""}', '{"text":""}', '{"text":""}']}}
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data modify block ~ ~ ~ front_text.color set value "blue"
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data modify block ~ ~ ~ front_text.messages[0] set value '["Votre solde"]'
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data modify block ~ ~ ~ front_text.messages[1] set value '["actuel :"]'
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data modify block ~ ~ ~ front_text.messages[2] set value '""'
+execute at @e[type=minecraft:armor_stand,tag=bank_display] run data modify block ~ ~ ~ front_text.messages[3] set value '[{"score":{"name":"@p[distance=..10,limit=1]","objective":"Coal"},"color":"red"}]'
