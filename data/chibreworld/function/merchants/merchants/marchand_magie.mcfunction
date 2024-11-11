@@ -29,12 +29,30 @@ execute \
                                 '[\
                                     [\
                                         "",\
-                                        {"text":"Livre de détection\\nd\'entités","bold":true,"color":"dark_green"},\
-                                        {"text":"\\n------------","bold":true}\
+                                        {\
+                                            "text":"Livre de détection\\nd\'entités",\
+                                            "bold":true,\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"\\n------------",\
+                                            "bold":true\
+                                        },\
+                                        {\
+                                            "text":"- Détecter toutes les entitéss",\
+                                            "color":"blue",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger hl_all"\
+                                            },\
+                                           "hoverEvent":{\
+                                                "action":"show_text",\
+                                                "value":[\
+                                                    {"text":"Met en surbrillance toutes les entités dans un rayon de 100 blocs autour de vous."}\
+                                                ]\
+                                            }\
+                                        }\
                                     ],\
-                                    [\
-                                        "\\ntoto"\
-                                    ]\
                                 ]',\
                                 '[["ertr"]]',\
                                 ],\
