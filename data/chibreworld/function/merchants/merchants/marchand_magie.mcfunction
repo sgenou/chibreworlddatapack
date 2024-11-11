@@ -26,7 +26,17 @@ execute \
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[\
-                                    '[["zerezrzer\\nzdzer\\nzer",{"text":"eazeaz","color":"red"},{"text":"azeaz","color":"dark_aqua"},"\\n "]]'\
+                                '[\
+                                    [\
+                                        "",\
+                                        {"text":"Livre de détection\\nd\'entités","bold":true,"color":"dark_green"},\
+                                        {"text":"\\n------------","bold":true}\
+                                    ],\
+                                    [\
+                                        "\\ntoto"\
+                                    ]\
+                                ]',\
+                                '[["ertr"]]',\
                                 ],\
                                 resolved: 1b,\
                                 author: "ChibWorld Wizard",\
