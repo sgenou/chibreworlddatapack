@@ -262,7 +262,7 @@ execute \
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
                                 title: {\
-                                    raw: "Statues"\
+                                    raw: "Detection d'entités"\
                                 }\
                             }\
                         },\
