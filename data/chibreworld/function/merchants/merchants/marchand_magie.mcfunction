@@ -21,8 +21,7 @@ execute \
                             custom_name:'{"text":"Livre de détection d\'entités","bold":true,"color":"dark_green"}',\
                             lore:[\
                                 '{"text":"Un livre magique qui permet"}',\
-                                '{"text":"de contrôler les porte armures"}',\
-                                '{"text":"et les cadres."}',\
+                                '{"text":"de détecter des entités"}',\
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[\
@@ -127,7 +126,7 @@ execute \
                                                 ]\
                                             }\
                                         }\
-                                    ],\
+                                    ]\
                                 ]',\
                                 '[\
                                     [\
@@ -235,8 +234,8 @@ execute \
                                                     {"text":"Met en surbrillance tous les golems dans un rayon de 100 blocs autour de vous."}\
                                                 ]\
                                             }\
-                                        },\
-                                    ],\
+                                        }\
+                                    ]\
                                 ]',\
                                 '[\
                                     [\                                        
@@ -262,7 +261,7 @@ execute \
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
                                 title: {\
-                                    raw: "Detection d'entités"\
+                                    raw: "Détection d'entités"\
                                 }\
                             }\
                         },\
