@@ -326,23 +326,14 @@ execute \
                     sell: {\
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
-                        tag: {\
-                            EntityTag: {\
-                                PersistenceRequired: 1b,\
-                                Invulnerable: 1b\
-                            },\
-                            PersistenceRequired: 1b,\
-                            Enchantments: [\
-                                {\
-                                    id: "minecraft:unbreaking",\
-                                    lvl: 1s\
-                                }\
+                        components:{\
+                            custom_name:'{"text":"AntiCreeper"}',\
+                            lore:[\
+                                '{"text":"Plus de creepers dans un rayon de 16 blocs"}',\
+                                '{"text":"Attention spawne un squid a maintenir en vie"}'\
                             ],\
-                            display: {\
-                                Name: '"AntiCreeper"',\
-                                "minecraft:lore": [\
-                                    '{"text": "Plus de creepers dans un rayon de 16 blocs"', '"Attention spawne un squid a maintenir en vie"']\
-                            }\
+                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
+                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                      }\
                 },\
@@ -355,23 +346,14 @@ execute \
                     sell: {\
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
-                        tag: {\
-                            EntityTag: {\
-                                PersistenceRequired: 1b,\
-                                Invulnerable: 1b\
-                            },\
-                            PersistenceRequired: 1b,\
-                            Enchantments: [\
-                                {\
-                                    id: "minecraft:unbreaking",\
-                                    lvl: 1s\
-                                }\
+                        components:{\
+                            custom_name:'{"text":"AntiSkeleton"}',\
+                            lore:[\
+                                '{"text":"Plus de squelettes dans un rayon de 16 blocs"}',\
+                                '{"text":"Attention spawne un squid a maintenir en vie"}'\
                             ],\
-                            display: {\
-                                Name: '"AntiSkeleton"',\
-                                "minecraft:lore": \
-                                    ['{"text": "Plus de squelettes dans un rayon de 16 blocs"', '"Attention spawne un squid a maintenir en vie"']\
-                            }\
+                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
+                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                     }\
                 },\
@@ -384,23 +366,14 @@ execute \
                     sell: {\
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
-                        tag: {\
-                            EntityTag: {\
-                                PersistenceRequired: 1b,\
-                                Invulnerable: 1b\
-                            },\
-                            PersistenceRequired: 1b,\
-                            Enchantments: [\
-                                {\
-                                    id: "minecraft:unbreaking",\
-                                    lvl: 1s\
-                                }\
+                        components:{\
+                            custom_name:'{"text":"AntiZombie"}',\
+                            lore:[\
+                                '{"text":"Plus de zombies dans un rayon de 16 blocs"}',\
+                                '{"text":"Attention spawne un squid a maintenir en vie"}'\
                             ],\
-                            display: {\
-                                Name: '"AntiZombie"',\
-                                "minecraft:lore": [\
-                                    '{"text": "Plus de zombies dans un rayon de 16 blocs"', '"Attention spawne un squid a maintenir en vie"']\
-                            }\
+                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
+                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                     }\
                 }\
