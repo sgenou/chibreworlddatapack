@@ -8,8 +8,8 @@ execute at @a[scores={sneaking=1..}] if block ~ ~-1 ~ minecraft:emerald_block ru
 # Boost sur les chemins
 function chibreworld:path_boost
 
-# Livre des marchands
-execute if entity @p[nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant2
+# Livre des marchandsv
+execute if items entity @p weapon.mainhand minecraft:written_book[] run function chibreworld:merchants/summonmerchant2
 execute if entity @e[type=minecraft:villager,tag=selected] run function chibreworld:merchants/unselectmerchant
 
 # Kit de bienvenue

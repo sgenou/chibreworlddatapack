@@ -762,7 +762,7 @@ execute \
                                             "color":"dark_green",\
                                             "clickEvent":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger moveMerchant"\
+                                                "value":"/trigger movemerchant"\
                                             }\
                                         }\
                                     ]]'\
