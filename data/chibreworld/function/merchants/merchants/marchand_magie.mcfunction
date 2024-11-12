@@ -312,7 +312,8 @@ execute \
                             lore:[\
                                 '{"text":"Monte une tente"}',\
                                 '{"text":"Clic droit au sol sur un terrain dégagé"}'\
-                            ]\
+                            ],\
+                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false}\
                         }\
                     }\
                 },\
