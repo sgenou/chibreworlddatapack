@@ -426,8 +426,8 @@ execute \
                                                 "value":"/trigger sumCharboniste"\
                                             }\
                                         }\
-                                    ],\
-                                    [\
+                                    ]]',\
+                                    '[[\
                                         {\
                                             "text":"Enchanteur",\
                                             "color":"blue",\
@@ -553,8 +553,8 @@ execute \
                                                 "value":"/trigger sumMDeChevaux"\
                                             }\
                                         }\
-                                    ],\
-                                    [\
+                                    ]]',\
+                                    '[[\
                                         {\
                                             "text":"Marchand de cuivre",\
                                             "color":"dark_aqua",\
@@ -680,8 +680,8 @@ execute \
                                                 "value":"/trigger sumServeur"\
                                             }\
                                         }\
-                                    ],\
-                                    [\
+                                    ]]',\
+                                    '[[\
                                         {\
                                             "text":"Serveur du salon de thé",\
                                             "color":"blue",\
@@ -729,8 +729,8 @@ execute \
                                                 "value":"/trigger sumVDPDNEDeLEnd"\
                                             }\
                                         }\
-                                    ],\
-                                    [\
+                                    ]]',\
+                                    '[[\
                                         {\
                                             "text":"Sélectionne le marchand le plus proche",\
                                             "color":"gold",\
