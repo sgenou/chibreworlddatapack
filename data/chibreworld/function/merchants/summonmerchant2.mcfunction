@@ -1,156 +1,156 @@
 #Apparition et position du marchand
-execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumArmurier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumAubergiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBanquier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBDetail=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBarman=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBoucher=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBoulanger=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumBousier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumCharboniste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumEnchanteur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumFigurant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumFleuriste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumJoaillier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDACompagnie=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDArgile=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDADeMine=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDAMagiques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeBois=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeChevaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeDisques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDFEtLegumes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDPDeLaMer=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeRedstone=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeTableaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDeTetes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumMDuDrugstore=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumPoissonnier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumServeur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
-execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumAlchimiste=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumArmurier=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumAubergiste=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBanquier=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBDetail=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBarman=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBoucher=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBoulanger=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumBousier=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumCharboniste=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumEnchanteur=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumFigurant=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumFleuriste=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumJoaillier=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDACompagnie=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDArgile=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDADeMine=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDAMagiques=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeBois=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeChevaux=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeDisques=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDFEtLegumes=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDPDeLaMer=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeRedstone=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeTableaux=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDeTetes=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumMDuDrugstore=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumPoissonnier=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumServeur=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumSDSalonDeThe=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumTanneur=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumVDCDTelep=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumVDPDNEDeLEnd=1..}] run function chibreworld:merchants/summonmerchant
+execute at @p[scores={sumCopperMerc=1..}] run function chibreworld:merchants/summonmerchant
 
 #Etiquettage du marchand
-execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spawnAlchimiste
-execute at @p[scores={sumArmurier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnArmurier
-execute at @p[scores={sumAubergiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnInnkeeper
-execute at @p[scores={sumBanquier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBanker
-execute at @p[scores={sumBDetail=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBanker2
-execute at @p[scores={sumBarman=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBarman
-execute at @p[scores={sumBoucher=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBoucher
-execute at @p[scores={sumBoulanger=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBaker
-execute at @p[scores={sumBousier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnTurdMerchant
-execute at @p[scores={sumCharboniste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnCharbon
-execute at @p[scores={sumEnchanteur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnEnchanter
-execute at @p[scores={sumFigurant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnFigurant
-execute at @p[scores={sumFleuriste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnFleuriste
-execute at @p[scores={sumJoaillier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnJeweler
-execute at @p[scores={sumMDACompagnie=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnClayMerchant
-execute at @p[scores={sumMDArgile=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnClayMerchant
-execute at @p[scores={sumMDADeMine=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnMineMerchant
-execute at @p[scores={sumMDAMagiques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPancartier
-execute at @p[scores={sumMDeBois=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnWood
-execute at @p[scores={sumMDeChevaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnMarchevo
-execute at @p[scores={sumMDeDisques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDiscMerchant
-execute at @p[scores={sumMDFEtLegumes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPrimeur
-execute at @p[scores={sumMDPDeLaMer=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPrismarin
-execute at @p[scores={sumMDeRedstone=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnRaidstone
-execute at @p[scores={sumMDeTableaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnArtist
-execute at @p[scores={sumMDeTetes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnHeadMerchant
-execute at @p[scores={sumMDuDrugstore=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDrugStore
-execute at @p[scores={sumPoissonnier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPoissonier
-execute at @p[scores={sumServeur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnWaiter
-execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnServSalThe
-execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDyeMerchant
-execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnTPMerchant
-execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnNether
-execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnCopMerc
+execute at @p[scores={sumAlchimiste=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spawnAlchimiste
+execute at @p[scores={sumArmurier=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnArmurier
+execute at @p[scores={sumAubergiste=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnInnkeeper
+execute at @p[scores={sumBanquier=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBanker
+execute at @p[scores={sumBDetail=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBanker2
+execute at @p[scores={sumBarman=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBarman
+execute at @p[scores={sumBoucher=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBoucher
+execute at @p[scores={sumBoulanger=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnBaker
+execute at @p[scores={sumBousier=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnTurdMerchant
+execute at @p[scores={sumCharboniste=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnCharbon
+execute at @p[scores={sumEnchanteur=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnEnchanter
+execute at @p[scores={sumFigurant=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnFigurant
+execute at @p[scores={sumFleuriste=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnFleuriste
+execute at @p[scores={sumJoaillier=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnJeweler
+execute at @p[scores={sumMDACompagnie=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnClayMerchant
+execute at @p[scores={sumMDArgile=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnClayMerchant
+execute at @p[scores={sumMDADeMine=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnMineMerchant
+execute at @p[scores={sumMDAMagiques=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPancartier
+execute at @p[scores={sumMDeBois=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnWood
+execute at @p[scores={sumMDeChevaux=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnMarchevo
+execute at @p[scores={sumMDeDisques=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDiscMerchant
+execute at @p[scores={sumMDFEtLegumes=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPrimeur
+execute at @p[scores={sumMDPDeLaMer=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPrismarin
+execute at @p[scores={sumMDeRedstone=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnRaidstone
+execute at @p[scores={sumMDeTableaux=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnArtist
+execute at @p[scores={sumMDeTetes=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnHeadMerchant
+execute at @p[scores={sumMDuDrugstore=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDrugStore
+execute at @p[scores={sumPoissonnier=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnPoissonier
+execute at @p[scores={sumServeur=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnWaiter
+execute at @p[scores={sumSDSalonDeThe=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnServSalThe
+execute at @p[scores={sumTanneur=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnDyeMerchant
+execute at @p[scores={sumVDCDTelep=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnTPMerchant
+execute at @p[scores={sumVDPDNEDeLEnd=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnNether
+execute at @p[scores={sumCopperMerc=1..}] run tag @e[type=minecraft:villager,distance=..0.5,limit=1,sort=nearest] add spwnCopMerc
 
 #Mise à jour des marchands
 function chibreworld:merchants/merchant_update
 
 #Suppression d'un exemplaire du livre
-execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumArmurier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumAubergiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBanquier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBDetail=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBarman=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBoucher=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBoulanger=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBousier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumCharboniste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumEnchanteur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumFigurant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumFleuriste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumJoaillier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDACompagnie=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDArgile=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDADeMine=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDAMagiques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeBois=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeChevaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeDisques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDFEtLegumes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDPDeLaMer=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeRedstone=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeTableaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeTetes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDuDrugstore=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumPoissonnier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumServeur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumAlchimiste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumArmurier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumAubergiste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBanquier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBDetail=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBarman=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBoucher=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBoulanger=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumBousier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumCharboniste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumEnchanteur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumFigurant=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumFleuriste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumJoaillier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDACompagnie=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDArgile=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDADeMine=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDAMagiques=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeBois=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeChevaux=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeDisques=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDFEtLegumes=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDPDeLaMer=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeRedstone=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeTableaux=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDeTetes=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumMDuDrugstore=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumPoissonnier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumServeur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumSDSalonDeThe=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumTanneur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumVDCDTelep=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumVDPDNEDeLEnd=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumCopperMerc=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
 
 #Affichage du message de réussite
-execute at @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumAlchimiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumArmurier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumArmurier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumAubergiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumAubergiste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBanquier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBanquier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBDetail=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBDetail=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBarman=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBarman=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBoucher=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBoucher=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBoulanger=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBoulanger=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumBousier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumBousier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumCharboniste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumCharboniste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumEnchanteur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumEnchanteur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumFigurant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumFigurant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumFleuriste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumFleuriste=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumJoaillier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumJoaillier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDACompagnie=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDACompagnie=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDArgile=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDArgile=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDADeMine=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDADeMine=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDAMagiques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDAMagiques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeBois=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeBois=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeChevaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeChevaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeDisques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeDisques=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDFEtLegumes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDFEtLegumes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDPDeLaMer=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDPDeLaMer=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeRedstone=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeRedstone=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeTableaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeTableaux=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDeTetes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDeTetes=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumMDuDrugstore=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumMDuDrugstore=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumPoissonnier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumPoissonnier=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumServeur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumServeur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumSDSalonDeThe=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumTanneur=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumVDCDTelep=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumVDPDNEDeLEnd=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
-execute at @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run tellraw @p[scores={sumCopperMerc=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumAlchimiste=1..}] run tellraw @p[scores={sumAlchimiste=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumArmurier=1..}] run tellraw @p[scores={sumArmurier=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumAubergiste=1..}] run tellraw @p[scores={sumAubergiste=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBanquier=1..}] run tellraw @p[scores={sumBanquier=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBDetail=1..}] run tellraw @p[scores={sumBDetail=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBarman=1..}] run tellraw @p[scores={sumBarman=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBoucher=1..}] run tellraw @p[scores={sumBoucher=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBoulanger=1..}] run tellraw @p[scores={sumBoulanger=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumBousier=1..}] run tellraw @p[scores={sumBousier=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumCharboniste=1..}] run tellraw @p[scores={sumCharboniste=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumEnchanteur=1..}] run tellraw @p[scores={sumEnchanteur=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumFigurant=1..}] run tellraw @p[scores={sumFigurant=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumFleuriste=1..}] run tellraw @p[scores={sumFleuriste=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumJoaillier=1..}] run tellraw @p[scores={sumJoaillier=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDACompagnie=1..}] run tellraw @p[scores={sumMDACompagnie=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDArgile=1..}] run tellraw @p[scores={sumMDArgile=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDADeMine=1..}] run tellraw @p[scores={sumMDADeMine=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDAMagiques=1..}] run tellraw @p[scores={sumMDAMagiques=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeBois=1..}] run tellraw @p[scores={sumMDeBois=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeChevaux=1..}] run tellraw @p[scores={sumMDeChevaux=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeDisques=1..}] run tellraw @p[scores={sumMDeDisques=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDFEtLegumes=1..}] run tellraw @p[scores={sumMDFEtLegumes=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDPDeLaMer=1..}] run tellraw @p[scores={sumMDPDeLaMer=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeRedstone=1..}] run tellraw @p[scores={sumMDeRedstone=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeTableaux=1..}] run tellraw @p[scores={sumMDeTableaux=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDeTetes=1..}] run tellraw @p[scores={sumMDeTetes=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumMDuDrugstore=1..}] run tellraw @p[scores={sumMDuDrugstore=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumPoissonnier=1..}] run tellraw @p[scores={sumPoissonnier=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumServeur=1..}] run tellraw @p[scores={sumServeur=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumSDSalonDeThe=1..}] run tellraw @p[scores={sumSDSalonDeThe=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumTanneur=1..}] run tellraw @p[scores={sumTanneur=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumVDCDTelep=1..}] run tellraw @p[scores={sumVDCDTelep=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumVDPDNEDeLEnd=1..}] run tellraw @p[scores={sumVDPDNEDeLEnd=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
+execute at @p[scores={sumCopperMerc=1..}] run tellraw @p[scores={sumCopperMerc=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
 
 # Selection de marchand
-execute at @p[scores={selmerchant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/selectnearestcustommerchant
+execute at @p[scores={selmerchant=1..}] run function chibreworld:merchants/selectnearestcustommerchant
 # Suppression de marchand
-execute at @p[scores={delmerchant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/removenearestselectedmerchand
+execute at @p[scores={delmerchant=1..}] run function chibreworld:merchants/removenearestselectedmerchand
 # Deplacement de marchand
-execute at @p[scores={movemerchant=1..},nbt={SelectedItem: {id: "minecraft:written_book", tag: {title: "Livre des marchands"}}}] run function chibreworld:merchants/movenearestmerchant
+execute at @p[scores={movemerchant=1..}] run function chibreworld:merchants/movenearestmerchant
 
 # Enlevage de l'etiquette
 scoreboard players set @p[scores={sumAlchimiste=1..}] sumAlchimiste 0
