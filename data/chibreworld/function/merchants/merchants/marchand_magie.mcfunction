@@ -126,7 +126,11 @@ execute \
                                                     {"text":"Met en surbrillance tous les chevaux, les ânes et les mules dans un rayon de 100 blocs autour de vous."}\
                                                 ]\
                                             }\
-                                        },\
+                                        }\
+                                    ],\
+                                ]',\
+                                '[\
+                                    [\
                                         "",\
                                         {\
                                             "text":"\\n- Détecter les chevaux et lamas",\
@@ -232,6 +236,10 @@ execute \
                                                 ]\
                                             }\
                                         },\
+                                    ],\
+                                ]',\
+                                '[\
+                                    [\                                        
                                         "",\
                                         {\
                                             "text":"\\n- Détecter les pillards",\
@@ -247,9 +255,8 @@ execute \
                                                 ]\
                                             }\
                                         }\
-                                    ],\
+                                    ]\
                                 ]',\
-                                '[["ertr"]]',\
                                 ],\
                                 resolved: 1b,\
                                 author: "ChibWorld Wizard",\
