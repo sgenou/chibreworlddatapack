@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "values": [
+        "#chibreworld:fishes",
+        "minecraft:dolphin",
+        "minecraft:squid",
+        "minecraft:turtle",
+        "minecraft:axolotl",
+        "minecraft:glow_squid"
+    ]
+}

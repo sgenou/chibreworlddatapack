@@ -1,9 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "minecraft:cat",
-        "minecraft:wolf",
-        "minecraft:parrot",
-        "#chibreworld:rideables"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "#chibreworld:horses",
-        "minecraft:llama",
-        "minecraft:trader_llama"
-    ]
-}
