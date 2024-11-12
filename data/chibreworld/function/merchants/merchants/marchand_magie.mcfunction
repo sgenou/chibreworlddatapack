@@ -272,36 +272,6 @@ execute \
                     maxUses: 1000000,\
                     buy: {\
                         id: "minecraft:diamond",\
-                        count: 1\
-                        },\
-                    sell: {\
-                        id: "minecraft:written_book",\
-                        components:{\
-                            custom_name:'{"text":"Livre de contrôle des porte armures et des cadres","bold":true,"color":"dark_green"}',\
-                            lore:[\
-                                '{"text":"Un livre magique qui permet"}',\
-                                '{"text":"de contrôler les porte armures"}',\
-                                '{"text":"et les cadres."}',\
-                            ],\
-                            "minecraft:written_book_content": {\
-                                pages:[\
-                                    '[[""]]'\
-                                ],\
-                                resolved: 1b,\
-                                author: "ChibWorld Wizard",\
-                                generation: 2,\
-                                title: {\
-                                    raw: "Statues"\
-                                }\
-                            }\
-                        },\
-                    rewardExp: false,\
-                    Paper.IgnoreDiscounts: 1b}\
-                },\
-                {\
-                    maxUses: 1000000,\
-                    buy: {\
-                        id: "minecraft:diamond",\
                         count: 32\
                         },\
                     sell: {\
