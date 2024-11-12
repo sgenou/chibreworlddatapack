@@ -12,3 +12,4 @@ execute if entity @p[scores={hl_fish=1..}] run function chibreworld:entity_highl
 execute if entity @p[scores={hl_aquatic=1..}] run function chibreworld:entity_highlight/hl_aquatic
 execute if entity @p[scores={hl_golem=1..}] run function chibreworld:entity_highlight/hl_golem
 execute if entity @p[scores={hl_raider=1..}] run function chibreworld:entity_highlight/hl_raider
+execute if entity @p[scores={hl_rideable=1..}] run function chibreworld:entity_highlight/hl_rideable
