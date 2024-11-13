@@ -777,7 +777,258 @@ execute \
                         },\
                     rewardExp: false,\
                     Paper.IgnoreDiscounts: 1b}\
-                },\                
+                },\
+                {\
+                    maxUses: 1000000,\
+                    buy: {\
+                        id: "minecraft:diamond",\
+                        count: 1\
+                        },\
+                    sell: {\
+                        id: "minecraft:written_book",\
+                        components:{\
+                            custom_name:'{"text":"Livre des ascenseurs","bold":true,"color":"dark_green"}',\
+                            lore:[\
+                                '{"text":"Un livre qui permet de transformer"}',\
+                                '{"text":"des pancartes en ascenseurs"}',\
+                            ],\
+                            "minecraft:written_book_content": {\
+                                pages:[\
+                                    '[["",\
+                                        {\
+                                            "text":"     Livre des\\n    ascenseurs",\
+                                            "bold":true,\
+                                            "hoverEvent":{\
+                                                "action":"show_text",\
+                                                "contents":"Visez une pancarte au mur\\na une distance de 4 blocs maximum.\\nCliquez sur le chevron\\nde votre choix\\npour installer l\'ascenseur."\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":"\\n\\n       ------",\
+                                            "bold":true\
+                                        },\
+                                        {\
+                                            "text":"\\n\\n      "\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up3"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up4"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up5"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up6"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up7"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up8"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"dark_green"\
+                                        },\
+                                        {\
+                                            "text":"^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_up9"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":"\\n      3 4 5 6 7 8 9\\n      "\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down3"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down4"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down5"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down6"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down7"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down8"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_down9"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" \\n\\n "\
+                                        }\
+                                    ]]',\
+                                    '[["",\
+                                        {\
+                                            "text":"    Ascenseur à\\n      distance\\n    indéterminée",\
+                                            "bold":true,\
+                                            "color":"dark_aqua",\
+                                            "hoverEvent":{\
+                                                "action":"show_text",\
+                                                "contents":"Visez une pancarte au mur\\na une distance de 4 blocs maximum.\\nL\'ascenseur à distance indéterminée\\nest plus lent que les autres.\\nIl permet en revanche de se\\ndéplacer sans limite de distance verticale.\\nIl nécessite un bloc de pierre sculptée\\nà l\'emplacement de destination."\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":"\\n       ------",\
+                                            "bold":true\
+                                        },\
+                                        {\
+                                            "text":"\\n\\n\\n              ^",\
+                                            "color":"dark_green",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_upX"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":"\\n              X"\
+                                        },\
+                                        {\
+                                            "text":" ",\
+                                            "color":"#FF8000"\
+                                        },\
+                                        {\
+                                            "text":"\\n              v",\
+                                            "color":"#FF8000",\
+                                            "clickEvent":{\
+                                                "action":"run_command",\
+                                                "value":"/trigger cast_downX"\
+                                            }\
+                                        },\
+                                        {\
+                                            "text":" \\n\\n "\
+                                        }\
+                                    ]]'\
+                                ],\
+                                title: "Livre des ascenseurs",\
+                                author: "sgenou le magicien",\
+                                generation: 2,\
+                                "minecraft:lore": [\
+                                    '{"text": "Un livre qui permet de transformer"', '"des pancartes en ascenseurs."'\
+                                ]\
+                            }\
+                        }\
+                    }\        
+                },\
                 {\
                     maxUses: 1000000,\
                     buy: {\
@@ -860,9 +1111,6 @@ execute \
             ]\
         }\
     }\
-
-## Livre des marchands
-#{maxUses: 1000000, buy: {id: "minecraft:diamond", count: 1}, sell: {id: "minecraft:written_book", tag: {pages: ['["",{"text":"Livre des marchands","bold":true,"color":"dark_green","hoverEvent":{"action":"show_text","contents":"Cliquez sur le nom d\'un marchand pour le faire apparaitre à votre position exacte."}},{"text":"\\n\\n\\n","color":"reset"}"','"{"text":"Alchimiste","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumAlchimiste"}},{"text":"\\n","color":"reset"}"','"{"text":"Armurier","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumArmurier"}},{"text":"\\n","color":"reset"}"','"{"text":"Aubergiste","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumAubergiste"}},{"text":"\\n","color":"reset"}"','"{"text":"Banquier","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumBanquier"}},{"text":"\\n","color":"reset"}"','"{"text":"Banquier détail","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumBDetail"}},{"text":"\\n","color":"reset"}"','"{"text":"Barman","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumBarman"}},{"text":"\\n","color":"reset"}"','"{"text":"Boucher","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumBoucher"}},{"text":"\\n","color":"reset"}"','"{"text":"Boulanger","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumBoulanger"}},{"text":"\\n","color":"reset"}"','"{"text":"Bousier","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumBousier"}},{"text":"\\n","color":"reset"}"','"{"text":"Charboniste","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumCharboniste"}}]', '["",{"text":"Enchanteur","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumEnchanteur"}},{"text":"\\n","color":"reset"}"','"{"text":"Figurant","color":"dark_aqua"  ,"clickEvent":{"action":"run_command","value":"/trigger sumFigurant"}},{"text":"\\n","color":"reset"}"','"{"text":"Fleuriste","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumFleuriste"}},{"text":"\\n","color":"reset"}"','"{"text":"Joaillier","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumJoaillier"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand d\'animaux de compagnie","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDACompagnie"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand d\'argile","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDArgile"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand d\'articles de mine","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDADeMine"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand d\'articles magiques","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDAMagiques"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de bois","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDeBois"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de chevaux","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDeChevaux"}}]', '["",{"text":"Marchand de cuivre","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumCopperMerc"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de disques","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDeDisques"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de fruits et légumes","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDFEtLegumes"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de produits de la mer","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDPDeLaMer"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de redstone","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDeRedstone"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de tableaux","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDeTableaux"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand de têtes","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumMDeTetes"}},{"text":"\\n","color":"reset"}"','"{"text":"Marchand du drugstore","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumMDuDrugstore"}},{"text":"\\n","color":"reset"}"','"{"text":"Poissonnier","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumPoissonnier"}},{"text":"\\n","color":"reset"}"','"{"text":"Serveur","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumServeur"}}]', '["",{"text":"Serveur du salon de thé","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumSDSalonDeThe"}},{"text":"\\n","color":"reset"}"','"{"text":"Tanneur","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumTanneur"}},{"text":"\\n","color":"reset"}"','"{"text":"Vendeur de cartes de téléportation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger sumVDCDTelep"}},{"text":"\\n","color":"reset"}"','"{"text":"Vendeur de produits du nether et de l\'end","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger sumVDPDNEDeLEnd"}}]', '["",{"text":"Sélectionne le marchand le plus proche","color":"gold","clickEvent":{"action":"run_command","value":"/trigger selmerchant"}},{"text":"\\n\\n","color":"reset"}"','"{"text":"Supprime le marchand sélectionné le plus proche","color":"red","clickEvent":{"action":"run_command","value":"/trigger delmerchant"}},{"text":"\\n\\n","color":"reset"}"','"{"text":"Déplace le marchand sélectionné le plus proche","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger movemerchant"}}]'], title: "Livre des marchands", author: sgenou, generation: 2, display: {Name: '"Le livre des marchands"', "minecraft:lore": ['{"text": "Un livre magique qui permet"', '"de faire apparaitre un marchand"', '"précis à l\'emplacement précis du joueur."}']}, Count: 1}, rewardExp: false, Paper.IgnoreDiscounts: 1b}}
 
 ## Livre des ascenseurs
 #{maxUses: 1000000, buy: {id: "minecraft:diamond", count: 1}, sell: {id: "minecraft:written_book", count: 1, tag: {pages: ['["",{"text":"     Livre des\\n    ascenseurs","bold":true,"hoverEvent":{"action":"show_text","contents":"Visez une pancarte au mur\\na une distance de 4 blocs maximum.\\nCliquez sur le chevron\\nde votre choix\\npour installer l\'ascenseur."}},{"text":"\\n\\n       ------","bold":true},{"text":"\\n\\n      ","color":"reset"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up3"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up4"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up5"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up6"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up7"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up8"}},{"text":" ","color":"dark_green"}"','"{"text":"^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_up9"}},{"text":"\\n      3 4 5 6 7 8 9\\n      ","color":"reset"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down3"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down4"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down5"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down6"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down7"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down8"}},{"text":" ","color":"#FF8000"}"','"{"text":"v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_down9"}},{"text":" \\n\\n ","color":"reset"}]', '["",{"text":"    Ascenseur à\\n      distance\\n    indéterminée","bold":true,"color":"dark_aqua","hoverEvent":{"action":"show_text","contents":"Visez une pancarte au mur\\na une distance de 4 blocs maximum.\\nL\'ascenseur à distance indéterminée\\nest plus lent que les autres.\\nIl permet en revanche de se\\ndéplacer sans limite de distance verticale.\\nIl nécessite un bloc de pierre sculptée\\nà l\'emplacement de destination."}},{"text":"\\n       ------","bold":true},{"text":"\\n\\n\\n              ^","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger cast_upX"}},{"text":"\\n              X","color":"reset"}"','"{"text":" ","color":"#FF8000"}"','"{"text":"\\n              v","color":"#FF8000","clickEvent":{"action":"run_command","value":"/trigger cast_downX"}},{"text":" \\n\\n ","color":"reset"}]'], title: "Livre des ascenseurs", author: "sgenou le magicien", generation: 2, "minecraft:lore": ['{"text": "Un livre qui permet de transformer"', '"des pancartes en ascenseurs."']}}}
