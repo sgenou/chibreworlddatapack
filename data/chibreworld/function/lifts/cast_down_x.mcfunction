@@ -1,11 +1,15 @@
 # Petite particule
 particle crit ~ ~ ~ 
 # Si on trouve une pancarte on ecrit les commandes
-execute if block ~ ~ ~ #minecraft:signs run data merge block ~ ~ ~ {Text1: '{"text":"","clickEvent":{"action":"run_command","value":"tag @p add wantlift"}}', Text2: '{"text":"|","clickEvent":{"action":"run_command","value":"summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invisible:1b,Tags:[\\"downlift\\"]}"},"bold":true,"color":"#0801FF"}', Text3: '{"text":"V","bold":true,"color":"#0801FF"}'}
+execute if block ~ ~ ~ #minecraft:signs run \
+    data merge block ~ ~ ~ {\
+         front_text: {has_glowing_text: 0b, color: "black", messages: ['{"clickEvent":{"action":"run_command","value":"tag @p add wantlift"},"text":""}', '{"bold":true,"clickEvent":{"action":"run_command","value":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Tags:[\\"downlift\\"]}"},"color":"#0801FF","text":"|"}', '{"bold":true,"color":"#0801FF","text":"V"}', '""']}, is_waxed: 0b, back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""']}\
+    }
+
 # Si on trouve une pancarte on indique qu'on a placé les commandes
 execute if block ~ ~ ~ #minecraft:signs run tellraw @p[scores={cast_downX=1..}] ["",{"text":"Ascenseur posé: ","color":"dark_green"},{"text":"X blocs vers le bas\n","color":"gold"},{"text":"/!\\ ","color":"red"},{"text":"Assurez vous d'avoir un bloc de pierre sculptée quelque part en dessous de cette pancarte. ","color":"gold"}]
 # Si on trouve une pancarte on supprime un livre au lanceur le plus proche
-execute if block ~ ~ ~ #minecraft:signs run clear @p[scores={cast_downX=1..}] minecraft:written_book[minecraft:written_book_content~{title:'"Livre des ascenseurs"'}] 1
+execute if block ~ ~ ~ #minecraft:signs if items entity @p weapon.mainhand minecraft:written_book run clear @p[scores={cast_downX=1..}] minecraft:written_book[written_book_content={title:{raw:"Livre des ascenseurs"},author:"sgenou le magicien"}] 1
 # Si on a supprimé le livre on desenregistre le lanceur
 execute if block ~ ~ ~ #minecraft:signs run scoreboard players set @p[scores={cast_downX=1..}] cast_downX 0
 # Si on a mis trop de temps on indique que ça n'a pas fonctionné
