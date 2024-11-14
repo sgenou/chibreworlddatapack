@@ -19,7 +19,10 @@ execute \
                         id: "minecraft:written_book",\
                         components:{\
                             custom_name:'{"text":"Livre de détection d\'entités","bold":true,"color":"dark_green"}',\
-                            custom_data:{entity_book:1b},\
+                            custom_data:{\
+                                entity_book:1b,\
+                                magic_book:1b\
+                            },\
                             lore:[\
                                 '{"text":"Un livre magique qui permet"}',\
                                 '{"text":"de détecter des entités"}',\
@@ -279,6 +282,10 @@ execute \
                         id: "minecraft:written_book",\
                         components:{\
                             custom_name:'{"text":"Livre des marchands","bold":true,"color":"dark_green"}',\
+                            custom_data:{\
+                                traders_book:1b,\
+                                magic_book:1b\
+                            },\
                             lore:[\
                                 '{"text":"Un livre magique qui permet"}',\
                                 '{"text":"de faire apparaitre un marchand"}',\
@@ -789,6 +796,10 @@ execute \
                         id: "minecraft:written_book",\
                         components:{\
                             custom_name:'{"text":"Livre des ascenseurs","bold":true,"color":"dark_green"}',\
+                            custom_data:{\
+                                lifts_book:1b,\
+                                magic_book:1b\
+                            },\                            
                             lore:[\
                                 '{"text":"Un livre qui permet de transformer"}',\
                                 '{"text":"des pancartes en ascenseurs"}',\
