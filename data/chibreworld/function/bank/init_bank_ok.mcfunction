@@ -33,5 +33,4 @@ execute at @e[type=minecraft:armor_stand,sort=nearest,tag=coal_withdrawal_zone] 
 execute as @e[type=minecraft:armor_stand,sort=nearest,tag=coal_withdrawal_zone] run kill @s
 
 # On supprime un livre en cas de succès
-#clear @p minecraft:written_book{title: "Livre d'installation de banque"} 1
-clear @a minecraft:written_book[minecraft:custom_name='"Livre d\'installation de banque"'] 1
+clear @a minecraft:written_book[minecraft:custom_data~{bank_book:1b}] 1
