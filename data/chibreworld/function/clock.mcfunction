@@ -1,4 +1,3 @@
-# 1.20.6 TODO
 # Dépot à la banque
 execute if entity @e[type=minecraft:armor_stand,tag=bank_deposit] at @e[type=minecraft:armor_stand,tag=bank_deposit] run execute unless block ~ ~2 ~ minecraft:air run function chibreworld:bank/bank_deposit
 
@@ -23,7 +22,7 @@ execute if entity @e[type=armor_stand,tag=downlift] run execute as @e[type=armor
 execute if entity @e[type=armor_stand,tag=uplift] run execute as @e[type=armor_stand,tag=uplift,limit=1] run function chibreworld:lifts/new_lifts_up
 
 # Téléportation de regroupement
-execute if entity @a[scores={sneaking=1..},nbt={SelectedItem: {id: "minecraft:feather", tag: {title: "Plume de regroupement", Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}}] run function chibreworld:gatherport
+#execute if entity @a[scores={sneaking=1..},nbt={SelectedItem: {id: "minecraft:feather", tag: {title: "Plume de regroupement", Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}}] run function chibreworld:gatherport
 
 # On programme la prochaine occurence
 schedule function chibreworld:clock 1t
