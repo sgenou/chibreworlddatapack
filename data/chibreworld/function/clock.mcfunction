@@ -3,6 +3,7 @@ execute if entity @e[type=minecraft:armor_stand,tag=bank_deposit] at @e[type=min
 
 # Dépot d'XP
 execute at @a[scores={sneaking=1..}] if block ~ ~-1 ~ minecraft:emerald_block run function chibreworld:xp_deposit
+scoreboard players set @a[scores={sneaking=1..}] sneaking 0
 
 # Boost sur les chemins
 function chibreworld:path_boost

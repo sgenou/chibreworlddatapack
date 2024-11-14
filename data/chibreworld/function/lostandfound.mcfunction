@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:item,nbt={OnGround: 1b},nbt=!{Item: {id: "minecraft:egg"}},nbt=!{Item: {id: "minecraft:cactus"}},nbt=!{Item: {id: "minecraft:dirt"}},nbt=!{Item: {id: "minecraft:rotten_flesh"}},nbt=!{Item: {id: "minecraft:cobblestone"}},nbt={Age: 5900s},sort=random,limit=1] run tp @s @e[type=minecraft:armor_stand,tag=lostandfound,sort=random,limit=1]
