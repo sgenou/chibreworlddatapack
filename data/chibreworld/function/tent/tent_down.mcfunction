@@ -1,6 +1,6 @@
 execute at @p[scores={foldTent=1..}] run execute unless blocks -133 61 291 -131 63 293 ~-1 ~ ~-1 masked run tell @p[scores={foldTent=..1}] La tente n'a pas pu etre démontée
 #execute at @p[scores={foldTent=1..}] run execute if blocks -133 61 291 -131 63 293 ~-1 ~ ~-1 all run give @p[scores={foldTent=..1}] squid_spawn_egg{Enchantments:[{id:"unbreaking",lvl:1}],display:{Name:'"Tente"',Lore:['"Monte une tente"','"Clic droit au sol sur un terrain dégagé"']},HideFlags:1} 1
-execute at @p[scores={foldTent=1..}] run execute if blocks -133 61 291 -131 63 293 ~-1 ~ ~-1 masked run give @p[scores={foldTent=..1}] squid_spawn_egg[minecraft:enchantments={show_in_tooltip:0b,levels:{"minecraft:unbreaking":1}},minecraft:lore=['{"text": "Monte une tente"}','{"text": "Clic droit au sol sur un terrain dégagé"}'], minecraft:custom_name="Tente"] 1
+execute at @p[scores={foldTent=1..}] run execute if blocks -133 61 291 -131 63 293 ~-1 ~ ~-1 masked run give @p[scores={foldTent=..1}] squid_spawn_egg[minecraft:enchantments={show_in_tooltip:0b,levels:{"minecraft:unbreaking":1}},minecraft:lore=['{"text": "Monte une tente"}','{"text": "Clic droit au sol sur un terrain dégagé"}'], minecraft:custom_name='"Tente"'] 1
 execute at @p[scores={foldTent=1..}] run execute if blocks -133 61 291 -131 63 293 ~-1 ~ ~-1 masked run fill ~-2 ~ ~-2 ~2 ~2 ~2 minecraft:air replace
 #execute at @p[scores={foldTent=1..}] run dynmap radiusrender 3
 execute at @p[scores={foldTent=1..}] run scoreboard players set @p[scores={foldTent=..1}] foldTent 0
