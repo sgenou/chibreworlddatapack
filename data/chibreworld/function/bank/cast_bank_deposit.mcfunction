@@ -1,5 +1,5 @@
 # Petite particule
-particle crit ~ ~ ~ 
+particle crit ~ ~ ~
 # Si on trouve une pancarte on ecrit les commandes
 execute if block ~ ~ ~ #minecraft:signs run data merge block ~ ~ ~ {\
     front_text: {has_glowing_text: 0b, color: "dark_red", messages: ['{"text":""}', '{"bold":true,"text":"Zone de dépot","color":"dark_red"}', '""', '""']}, is_waxed: 1b,\
