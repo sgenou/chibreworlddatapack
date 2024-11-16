@@ -1,5 +1,5 @@
 # Petite particule
-particle crit ~ ~ ~ 
+particle crit ~ ~ ~
 # Si on trouve une pancarte on ecrit les commandes
 execute if block ~ ~ ~ #minecraft:signs run \
     data merge block ~ ~ ~ {\
