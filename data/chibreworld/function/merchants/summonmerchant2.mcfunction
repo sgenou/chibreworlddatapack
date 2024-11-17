@@ -74,40 +74,40 @@ execute at @p[scores={sumCopperMerc=1..}] run tag @e[type=minecraft:villager,dis
 function chibreworld:merchants/merchant_update
 
 #Suppression d'un exemplaire du livre
-execute at @p[scores={sumAlchimiste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumArmurier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumAubergiste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBanquier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBDetail=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBarman=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBoucher=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBoulanger=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumBousier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumCharboniste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumEnchanteur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumFigurant=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumFleuriste=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumJoaillier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDACompagnie=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDArgile=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDADeMine=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDAMagiques=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeBois=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeChevaux=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeDisques=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDFEtLegumes=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDPDeLaMer=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeRedstone=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeTableaux=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDeTetes=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumMDuDrugstore=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumPoissonnier=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumServeur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumSDSalonDeThe=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumTanneur=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumVDCDTelep=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumVDPDNEDeLEnd=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
-execute at @p[scores={sumCopperMerc=1..}] run clear @p minecraft:written_book[minecraft:written_book_content~{title:'"Livre des marchands"'}] 1
+execute at @p[scores={sumAlchimiste=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumArmurier=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumAubergiste=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBanquier=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBDetail=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBarman=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBoucher=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBoulanger=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumBousier=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumCharboniste=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumEnchanteur=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumFigurant=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumFleuriste=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumJoaillier=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDACompagnie=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDArgile=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDADeMine=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDAMagiques=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeBois=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeChevaux=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeDisques=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDFEtLegumes=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDPDeLaMer=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeRedstone=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeTableaux=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDeTetes=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumMDuDrugstore=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumPoissonnier=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumServeur=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumSDSalonDeThe=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumTanneur=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumVDCDTelep=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumVDPDNEDeLEnd=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute at @p[scores={sumCopperMerc=1..}] run clear @p minecraft:written_book[custom_data~{lifts_book:1b}] 1
 
 #Affichage du message de réussite
 execute at @p[scores={sumAlchimiste=1..}] run tellraw @p[scores={sumAlchimiste=1..}] ["",{"text":"Marchand invoqué : ","color":"dark_green"},{"selector":"@e[type=minecraft:villager,tag=!,sort=nearest,limit=1,distance=..10]"}]
