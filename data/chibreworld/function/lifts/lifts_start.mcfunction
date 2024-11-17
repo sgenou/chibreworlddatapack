@@ -1,3 +1,3 @@
 # Triggers des poses
-execute at @p[scores={cast_upX=1..}] if items entity @p weapon.mainhand minecraft:written_book[minecraft:written_book_content~{title:"Livre des ascenseurs"}] run execute as @p anchored eyes run function chibreworld:lifts/cast_up_x
-execute at @p[scores={cast_downX=1..}] if items entity @p weapon.mainhand minecraft:written_book[minecraft:written_book_content~{title:"Livre des ascenseurs"}] run execute as @p anchored eyes run function chibreworld:lifts/cast_down_x
+execute at @p[scores={cast_upX=1..}] if items entity @a weapon.mainhand minecraft:written_book[minecraft:written_book_content~{title:"Livre des ascenseurs"}] run execute as @p anchored eyes run function chibreworld:lifts/cast_up_x
+execute at @p[scores={cast_downX=1..}] if items entity @a weapon.mainhand minecraft:written_book[minecraft:written_book_content~{title:"Livre des ascenseurs"}] run execute as @p anchored eyes run function chibreworld:lifts/cast_down_x

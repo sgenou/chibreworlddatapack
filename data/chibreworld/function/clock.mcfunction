@@ -9,14 +9,14 @@ scoreboard players set @a[scores={sneaking=1..}] sneaking 0
 function chibreworld:path_boost
 
 # Livre des marchands
-execute if items entity @p weapon.mainhand minecraft:written_book[custom_data~{traders_book:1b}] run function chibreworld:merchants/summonmerchant2
+execute if items entity @a weapon.mainhand minecraft:written_book[custom_data~{traders_book:1b}] run function chibreworld:merchants/summonmerchant2
 execute if entity @e[type=minecraft:villager,tag=selected] run function chibreworld:merchants/unselectmerchant
 
 # Kit de bienvenue
-execute as @p at @p unless score @s kit matches 1 if block ~-1 ~ ~ minecraft:air run execute positioned -120.66 69.05 291.76 run scoreboard players set @s[distance=17..] kit 0
+execute as @a at @s unless score @s kit matches 1 if block ~-1 ~ ~ minecraft:air run execute positioned -120.66 69.05 291.76 run scoreboard players set @s[distance=17..] kit 0
 
 # Livres magiques
-execute if items entity @p weapon.mainhand minecraft:written_book[custom_data~{magic_book:1b}] run function chibreworld:magic_books
+execute if items entity @a weapon.mainhand minecraft:written_book[custom_data~{magic_book:1b}] run function chibreworld:magic_books
 
 # Ascenceur à hauteur dynamique
 execute if entity @e[type=armor_stand,tag=downlift] run execute as @e[type=armor_stand,tag=downlift,limit=1] run function chibreworld:lifts/new_lifts_down

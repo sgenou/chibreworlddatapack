@@ -9,7 +9,7 @@ execute if block ~ ~ ~ #minecraft:signs run \
 # Si on trouve une pancarte on indique qu'on a placé les commandes
 execute if block ~ ~ ~ #minecraft:signs run tellraw @p[scores={cast_downX=1..}] ["",{"text":"Ascenseur posé: ","color":"dark_green"},{"text":"X blocs vers le bas\n","color":"gold"},{"text":"/!\\ ","color":"red"},{"text":"Assurez vous d'avoir un bloc de pierre sculptée quelque part en dessous de cette pancarte. ","color":"gold"}]
 # Si on trouve une pancarte on supprime un livre au lanceur le plus proche
-execute if block ~ ~ ~ #minecraft:signs if items entity @p weapon.mainhand minecraft:written_book run clear @p[scores={cast_downX=1..}] minecraft:written_book[custom_data~{lifts_book:1b}] 1
+execute if block ~ ~ ~ #minecraft:signs if items entity @a weapon.mainhand minecraft:written_book run clear @p[scores={cast_downX=1..}] minecraft:written_book[custom_data~{lifts_book:1b}] 1
 # Si on a supprimé le livre on desenregistre le lanceur
 execute if block ~ ~ ~ #minecraft:signs run scoreboard players set @p[scores={cast_downX=1..}] cast_downX 0
 # Si on a mis trop de temps on indique que ça n'a pas fonctionné
