@@ -1,3 +1,37 @@
-# 1.20.6 TODO
 tag @e[type=minecraft:villager,name="Barman"] add spwnBarman
-execute at @e[type=minecraft:villager,tag=spwnBarman] run data merge entity @e[type=minecraft:villager,tag=spwnBarman,distance=..1,limit=1] {VillagerData: {profession: "minecraft:nitwit"}, CustomName: '"Barman"', Offers: {Recipes: [{maxUses: 1000000, buy: {id: "minecraft:coal", count: 1b}, sell: {id: "minecraft:potion", count: 1b, tag: {CustomPotionEffects: [{Duration: 800, Id: 2, Amplifier: 0}], Potion: "minecraft:fire_resistance", display: {Name: '{"text":"Tord boyaux"}'}}}, uses: 0, rewardExp: 1b}, {maxUses: 1000000, buy: {id: "minecraft:coal", count: 3b}, sell: {id: "minecraft:potion", count: 1b, tag: {CustomPotionEffects: [{Duration: 2000, Id: 2, Amplifier: 0}], Potion: "minecraft:fire_resistance", display: {Name: '{"text":"Bon Whisky"}'}}}, uses: 0, rewardExp: 1b}]}}
+execute \
+    at @e[type=minecraft:villager,tag=spwnBarman] \
+    run data merge entity @e[type=minecraft:villager,tag=spwnBarman,distance=..1,limit=1] {\
+        VillagerData: {profession: "minecraft:nitwit"},\
+        CustomName: '"Barman"',\
+            Offers: {\
+                Recipes: [\
+                    {maxUses: 1000000,\
+                    buy: {id: "minecraft:coal", count: 1},\
+                    sell: {id: "minecraft:potion",\
+                        count: 1,\
+                        components:{\
+                            custom_name:'{"text":"Tord boyaux","bold":true,"color":"dark_green"}',\
+                            potion_contents:{\
+                                custom_effects:[{\
+                                    id: "minecraft:fire_resistance",\
+                                    amplifier: 0,\
+                                    duration: 800\
+                                }]\
+                            }}}},\
+                    {maxUses: 1000000,\
+                    buy: {id: "minecraft:coal", count: 3},\
+                    sell: {id: "minecraft:potion",\
+                        count: 1,\
+                        components:{\
+                            custom_name:'{"text":"Bon Whisky","bold":true,"color":"dark_green"}',\
+                            potion_contents:{\
+                                custom_effects:[{\
+                                    id: "minecraft:fire_resistance",\
+                                    amplifier: 0,\
+                                    duration: 2000\
+                                }]\
+                            }}}}\
+                ]\
+            }\
+    }

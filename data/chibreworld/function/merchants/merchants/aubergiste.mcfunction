@@ -7,7 +7,14 @@ execute \
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 3b}, sell: {id: "minecraft:beetroot_soup", count: 1b}, uses: 0, rewardExp: 1b},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1b}, sell: {id: "minecraft:potion", count: 1b, tag: {Potion: "minecraft:water"}}, uses: 0, rewardExp: 1b}\
+                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1b}, sell: {id: "minecraft:bread", count: 1b}, uses: 0, rewardExp: 1b},\
+                {maxUses: 1000000,\
+                    buy: {id: "minecraft:coal", count: 1},\
+                    sell: {id: "minecraft:potion",\
+                        count: 1,\
+                        components:{\
+                            potion_contents:{\
+                                potion: "minecraft:water"}}}},\
             ]\
         }\
     }
