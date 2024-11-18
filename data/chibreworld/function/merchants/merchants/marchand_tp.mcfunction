@@ -1,5 +1,260 @@
-# 1.20.6 WIP
 tag @e[type=minecraft:villager,name='"Vendeur de cartes de téléportation"'] add spwnTPMerchant 
-execute at @e[type=minecraft:villager,tag=spwnTPMerchant] run data merge entity @e[type=minecraft:villager,tag=spwnTPMerchant,distance=..1,limit=1] {VillagerData: {profession: "minecraft:cartographer"}, "minecraft:custom_name": '"Vendeur de cartes de téléportation"', Offers: {Recipes: [{maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 37, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking" : 1}}, "minecraft:custom_name": '"Tp_Spawnpoint"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text":"au spawnpoint"}', '{"text":"toute entitée autour"}', '{"text":"d\'elle dans un"}', '{"text":"rayon de un bloc"}', '{"text":"quand elle"}', '{"text":"est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 399, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Bikini"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Bikini Bottom"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1,components: {"minecraft:map_id": 501, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Fortresso"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Fortresso"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 291, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Kelbeor"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Kelbeor"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 279, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Pigsuity"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Pigsuity"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 290, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Desert_Ckiop"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Desert Ckiop"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 289, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Endor"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Endor"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 288, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Oriental_City"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Oriental City"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 146, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Hill_Valley"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à HillValley"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 284, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Akoona"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Akoona"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 282, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_New_Washington"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à New Washington"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 74, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Thorstein"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Thorstein"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 285, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Sareyana"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Sareyana"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 287, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Ckiop_Kingdom"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Ckiop Kingdom"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 35, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_WoodCastle"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "TP_WoodCastle"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1,components: {"minecraft:map_id": 278, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_Minehattan"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Minehattan"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 330, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_HeroicField"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à HeroicField"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 357, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_VillaVillou"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Villa Villou"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 104, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_OldMap3"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 3"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 102, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_OldMap2"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 2"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: {"minecraft:map_id": 103, "minecraft:enchantments": {show_in_tooltip: 0b, levels: {"minecraft:unbreaking": 1}}, "minecraft:custom_name": '"TP_OldMap1"', "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 1"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}]}}
-
-#execute at @e[type=minecraft:villager,tag=spwnTPMerchant] run data merge entity @e[type=minecraft:villager,tag=spwnTPMerchant,distance=..1,limit=1] {VillagerData: {profession: "minecraft:cartographer"}, CustomName: '"Vendeur de cartes de téléportation"', Offers: {Recipes: [{maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1,[minecraft:map_id=37,minecraft:enchantments={show_in_tooltip:0b,levels:{"minecraft:unbreaking":1}},minecraft:custom_name="Vendeur de cartes de téléportation",minecraft:lore=['{"text": "Cette carte téléporte"}','{"text":"au spawnpoint"}','{"text":"toute entitée autour"}','{"text":"d\'elle dans un"}','{"text":"rayon de un bloc"}','{"text":"quand elle"}','{"text":"est jetée au sol"}']]}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 399, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Bikini"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Bikini Bottom"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 501, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Fortresso"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Fortresso"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 291, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Kelbeor"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Kelbeor"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 279, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Pigsuity"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Pigsuity"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 290, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Desert_Ckiop"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Desert Ckiop"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 289, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Endor"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Endor"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 288, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Oriental_City"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Oriental City"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 146, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Hill_Valley"', "minecraft:lore" : ['"Cette carte téléporte"', '"à HillValley"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 284, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Akoona"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Akoona"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 282, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_New_Washington"', "minecraft:lore" : ['"Cette carte téléporte"', '"à New Washington"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 74, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Thorstein"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Thorstein"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 285, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Sareyana"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Sareyana"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 287, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Ckiop_Kingdom"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Ckiop Kingdom"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 35, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_WoodCastle"', "minecraft:lore" : ['"Cette carte téléporte"', '"à WoodCastle"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 278, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_Minehattan"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Minehattan"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 330, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_HeroicField"', "minecraft:lore" : ['"Cette carte téléporte"', '"à HeroicField"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 357, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_VillaVillou"', "minecraft:lore" : ['"Cette carte téléporte"', '"à Villa Villou"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 104, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_OldMap3"', "minecraft:lore" : ['"Cette carte téléporte"', '"à OldMap 3"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 102, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_OldMap2"', "minecraft:lore" : ['"Cette carte téléporte"', '"à OldMap 2"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}, {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 2}, sell: {id: "minecraft:filled_map", count: 1, components: { "minecraft:map_id": 103, Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}], display: {Name: '"TP_OldMap1"', "minecraft:lore" : ['"Cette carte téléporte"', '"à OldMap 1"', '"toute entitée autour"', '"d\'elle dans un"', '"rayon de un bloc"', '"quand elle"', '"est jetée au sol"']}}}}]}}
+execute \
+    at @e[type=minecraft:villager,tag=spwnTPMerchant] \
+    run data merge entity @e[type=minecraft:villager,tag=spwnTPMerchant,distance=..1,limit=1] {\
+        VillagerData: {profession: "minecraft:cartographer"},\
+        "minecraft:custom_name": '"Vendeur de cartes de téléportation"',\
+        Offers: {\
+            Recipes: [\
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 37,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking" : 1}},\
+                        "minecraft:custom_name": '"Tp_Spawnpoint"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text":"au spawnpoint"}', '{"text":"toute entitée autour"}', '{"text":"d\'elle dans un"}', '{"text":"rayon de un bloc"}', '{"text":"quand elle"}', '{"text":"est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 399,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Bikini"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Bikini Bottom"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 501,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Fortresso"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Fortresso"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 291,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Kelbeor"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Kelbeor"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 279,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Pigsuity"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Pigsuity"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 290,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Desert_Ckiop"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Desert Ckiop"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 289,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Endor"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Endor"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 288,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Oriental_City"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Oriental City"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 146,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Hill_Valley"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à HillValley"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 284,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Akoona"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Akoona"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 282,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_New_Washington"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à New Washington"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 74,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Thorstein"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Thorstein"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 285,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Sareyana"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Sareyana"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 287,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Ckiop_Kingdom"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Ckiop Kingdom"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 35,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_WoodCastle"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "TP_WoodCastle"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,component\
+                    : {"minecraf\
+                        t:map_id": 278,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_Minehattan"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Minehattan"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 330,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_HeroicField"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à HeroicField"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 357,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_VillaVillou"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à Villa Villou"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 104,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_OldMap3"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 3"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 102,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_OldMap2"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 2"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}, \
+                {maxUses: 1000000,\
+                buy: {id: "minecraft:diamond", count: 2},\
+                sell: {\
+                    id: "minecraft:filled_map",\
+                    count: 1,\
+                    components: {\
+                        "minecraft:map_id": 103,\
+                        "minecraft:enchantments": {\
+                            show_in_tooltip: 0b,\
+                            levels: {"minecraft:unbreaking": 1}},\
+                        "minecraft:custom_name": '"TP_OldMap1"',\
+                        "minecraft:lore": ['{"text": "Cette carte téléporte"}', '{"text": "à OldMap 1"}', '{"text": "toute entitée autour"}', '{"text": "d\'elle dans un"}', '{"text": "rayon de un bloc"}', '{"text": "quand elle"}', '{"text": "est jetée au sol"}']}}}]}}

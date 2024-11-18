@@ -1,4 +1,3 @@
-# 1.20.6 WIP
 tag @e[type=minecraft:villager,name="Marchand d'articles magiques"] add spwnPancartier
 execute \
     at @e[type=minecraft:villager,tag=spwnPancartier] \

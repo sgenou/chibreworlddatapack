@@ -1,4 +1,3 @@
-# 1.20.6 TODO
 tag @e[type=minecraft:villager,name="Marchand du drugstore"] add spwnDrugStore
 execute \
     at @e[type=minecraft:villager,tag=spwnDrugStore] \

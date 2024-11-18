@@ -1,4 +1,3 @@
-# 1.20.6 TODO
 tag @e[type=minecraft:villager,name="Marchand d'argile"] add spwnClayMerchant
 execute \
     at @e[type=minecraft:villager,tag=spwnClayMerchant] run \
