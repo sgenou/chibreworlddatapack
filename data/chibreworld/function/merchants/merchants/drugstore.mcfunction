@@ -28,6 +28,7 @@ execute \
                 {maxUses: 1000000, buy: {id: "coal_block", count: 1}, sell: {id: "minecraft:compass", count: 1}},\
                 {maxUses: 1000000, buy: {id: "coal_block", count: 14}, sell: {id: "minecraft:clock", count: 1}},\
                 {maxUses: 1000000, buy: {id: "coal_block", count: 1}, sell: {id: "minecraft:lead", count: 2}},\
+                {maxUses: 1000000, buy: {id: "coal_block", count: 14}, sell: {id: "minecraft:firework_rocket", count: 64}},\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 6}, sell: {id: "minecraft:tnt", count: 1}},\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:ender_pearl", count: 1}},\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 16b}, sell: {id: "minecraft:waxed_copper_bulb", count: 1b}, uses: 0, rewardExp: 1b}, \
@@ -43,17 +44,7 @@ execute \
                                     amplifier: 4,\
                                     duration: 9600\
                                 }]\
-                            }}}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 9}, sell: {id: "minecraft:redstone_block", count: 1}},\
-                {maxUses: 1000000, buy: {id: "redstone_block", count: 2}, sell: {id: "minecraft:coal", count: 9}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 5}, sell: {id: "minecraft:repeater", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 10}, sell: {id: "minecraft:comparator", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 16}, sell: {id: "minecraft:redstone_torch", count: 15}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 20}, sell: {id: "minecraft:daylight_detector", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 15}, sell: {id: "minecraft:piston", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 20}, sell: {id: "minecraft:sticky_piston", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 8}, sell: {id: "minecraft:dropper", count: 1}},\
-                {maxUses: 1000000, buy: {id: "minecraft:coal", count: 55}, sell: {id: "minecraft:hopper", count: 1}}\
+                            }}}}\
             ]\
         }\
     }
