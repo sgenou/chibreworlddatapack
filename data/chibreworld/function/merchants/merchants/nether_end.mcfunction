@@ -4,7 +4,7 @@ execute \
     run data merge entity @e[type=minecraft:villager,tag=spwnNether,distance=..1,limit=1] {\
         VillagerData: {\
             profession: "minecraft:weaponsmith"},\
-        CustomName: '"Vendeur de produits du nether et de l\'end"',\
+        CustomName: 'Vendeur de produits du nether et de l\'end',\
         Offers: {\
             Recipes: [\
                 {buy: {id: "minecraft:diamond_block", count: 32}, maxUses: 9999999, sell: {id: "minecraft:dragon_head", count: 1}, rewardExp: false}, \

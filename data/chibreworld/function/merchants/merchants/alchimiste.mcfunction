@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spawnAlchimiste] \
     run data merge entity @e[type=minecraft:villager,tag=spawnAlchimiste,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:librarian"},\
-        CustomName: '"Alchimiste"',\
+        CustomName: 'Alchimiste',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000,\
@@ -277,7 +277,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Potion de saut de puce","bold":true,"color":"dark_green"}',\
+                            custom_name:{text:"Potion de saut de puce","bold":true,"color":"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:jump_boost",\
@@ -294,7 +294,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Potion du mineur","bold":true,"color":"dark_green"}',\
+                            custom_name:{text:"Potion du mineur","bold":true,"color":"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:haste",\

@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnServSalThe] \
     run data merge entity @e[type=minecraft:villager,tag=spwnServSalThe,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:butcher"},\
-        CustomName: '"Serveur du salon de thé"',\
+        CustomName: 'Serveur du salon de thé',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000,\
@@ -13,7 +13,7 @@ execute \
                     id: "minecraft:potion",\
                     count: 1,\
                     components:{\
-                        custom_name:'{"text":"Thé Lapsang Souchong","bold":true,"color":"dark_aqua"}',\
+                        custom_name:{text:"Thé Lapsang Souchong","bold":true,"color":"dark_aqua"},\
                         potion_contents:{\
                             custom_effects:[{\
                                 id:"minecraft:regeneration",duration:30,amplifier:1}]}}}},\
@@ -24,7 +24,7 @@ execute \
                     id: "minecraft:potion",\
                     count: 1,\
                     components:{\
-                        custom_name:'{"text":"Thé Tuocha","bold":true,"color":"dark_aqua"}',\
+                        custom_name:{text:"Thé Tuocha","bold":true,"color":"dark_aqua"},\
                         potion_contents:{\
                             custom_effects:[{\
                                 id:"minecraft:regeneration",duration:30,amplifier:1}]}}}},\
@@ -35,7 +35,7 @@ execute \
                         id: "minecraft:potion",\
                         count: 1,\
                             components:{\
-                                custom_name:'{"text":"Thé Oolong","bold":true,"color":"dark_aqua"}',\
+                                custom_name:{text:"Thé Oolong","bold":true,"color":"dark_aqua"},\
                         potion_contents:{\
                             custom_effects:[{\
                                 id:"minecraft:regeneration",duration:30,amplifier:1}]}}}},\

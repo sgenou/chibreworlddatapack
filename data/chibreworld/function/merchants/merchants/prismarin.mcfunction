@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnPrismarin] \
     run data merge entity @e[type=minecraft:villager,tag=spwnPrismarin,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:fisherman"},\
-        CustomName: '"Marchand de produits de la mer"',\
+        CustomName: 'Marchand de produits de la mer',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 1}, sell: {id: "minecraft:sea_lantern", count: 2}},\

@@ -4,7 +4,7 @@ execute at @e[type=minecraft:villager,tag=spwnFleuriste] \
         VillagerData: {\
             profession: "minecraft:farmer"\
         },\
-        CustomName: '"Fleuriste"',\
+        CustomName: 'Fleuriste',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:dandelion", count: 1}},\

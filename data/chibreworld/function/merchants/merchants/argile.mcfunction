@@ -4,7 +4,7 @@ execute \
         data merge entity @e[type=minecraft:villager,tag=spwnClayMerchant,distance=..1,limit=1] {\
             VillagerData: {\
                 profession: "minecraft:mason"},\
-            CustomName: '"Marchand d\'argile"',\
+            CustomName: 'Marchand d\'argile',\
             Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 2}, sell: {id: "minecraft:clay", count: 1}},\

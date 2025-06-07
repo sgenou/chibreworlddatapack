@@ -2,7 +2,7 @@ tag @e[type=minecraft:villager,name="Banquier"] add spwnBanker
 execute \
     at @e[type=minecraft:villager,tag=spwnBanker] \
     run data merge entity @e[type=minecraft:villager,tag=spwnBanker,distance=..1,limit=1] {\
-        CustomName: '"Banquier"',\
+        CustomName: 'Banquier',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "coal_block", count: 2}, sell: {id: "minecraft:iron_block", count: 1}, rewardExp: false, Paper.IgnoreDiscounts: 1b}, \
