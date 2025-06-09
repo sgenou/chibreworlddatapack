@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnMineMerchant] \
     run data merge entity @e[type=minecraft:villager,tag=spwnMineMerchant,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:armorer"},\
-        CustomName: '"Marchand d\'articles de mine"',\
+        CustomName: 'Marchand d\'articles de mine',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:chest", count: 1}}, \
@@ -33,7 +33,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Potion du mineur","bold":true,"color":"dark_green"}',\
+                            custom_name:{"text":"Potion du mineur","bold":true,"color":"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:haste",\

@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnDiscMerchant] \
     run data merge entity @e[type=minecraft:villager,tag=spwnDiscMerchant,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:librarian"},\
-        CustomName: '"Marchand de disques"',\
+        CustomName: 'Marchand de disques',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 3}, sell: {id: "minecraft:music_disc_13", count: 1}}, \

@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnBaker] \
     run data merge entity @e[type=minecraft:villager,tag=spwnBaker,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:nitwit"},\
-        CustomName: '"Boulanger"',\
+        CustomName: 'Boulanger',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:bread", count: 4}}, \

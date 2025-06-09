@@ -2,7 +2,7 @@ tag @e[type=minecraft:villager,name="Marchand de fruits et légumes"] add spwnPr
 execute \
     at @e[type=minecraft:villager,tag=spwnPrimeur] \
     run data merge entity @e[type=minecraft:villager,tag=spwnPrimeur,distance=..1,limit=1] {\
-        CustomName: '"Marchand de fruits et légumes"',\
+        CustomName: 'Marchand de fruits et légumes',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:potato", count: 8}}, \

@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnHeadMerchant] \
     run data merge entity @e[type=minecraft:villager,tag=spwnHeadMerchant,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:weaponsmith"},\
-        CustomName: '"Marchand de têtes"',\
+        CustomName: 'Marchand de têtes',\
         Offers: {\
             Recipes: [\
                 {\
@@ -15,7 +15,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Lantern"}',\
+                            custom_name:{text:"Lantern"},\
                              profile:{name:MHF_Lantern}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -25,7 +25,8 @@ execute \
                     sell: {\
                         id: "minecraft:player_head",\
                         count: 1,\
-                        components: {custom_name:'{"text":"Blaze"}',profile:{id:[I;-1649960937,1342261129,-2103805555,663758581],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3NjIzZjc5ZjdlYjRmM2Y4MGRhNjViNjUyY2M0NGIyMTQ4ZWVhNDFmOWZmZTJlODZhMjNiZGY0OWFiNzdiMSJ9fX0="}]}}}},\                                
+                        components: {custom_name:{text:"Blaze"},\
+                        profile:{id:[I;-1649960937,1342261129,-2103805555,663758581],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3NjIzZjc5ZjdlYjRmM2Y4MGRhNjViNjUyY2M0NGIyMTQ4ZWVhNDFmOWZmZTJlODZhMjNiZGY0OWFiNzdiMSJ9fX0="}]}}}},\                                
                 {\
                     maxUses: 1000000,\
                     buy: {\
@@ -35,7 +36,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Herobrine"}',\
+                            custom_name:{text:"Herobrine"},\
                              profile:{name:MHF_Herobrine}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -46,7 +47,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Monitor"}',\
+                            custom_name:{text:"Monitor"},\
                              profile:{name:Korky__}}}},\
                 {\
                     maxUses: 1000000,\
@@ -57,7 +58,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Arrow Up"}',\
+                            custom_name:{text:"Oak Wood Arrow Up"},\
                              profile:{name:MHF_ArrowUp}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -68,7 +69,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Arrow Down"}',\
+                            custom_name:{text:"Oak Wood Arrow Down"},\
                              profile:{name:MHF_ArrowDown}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -79,7 +80,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Arrow Left"}',\
+                            custom_name:{text:"Oak Wood Arrow Left"},\
                              profile:{name:MHF_ArrowLeft}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -90,7 +91,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Arrow Right"}',\
+                            custom_name:{text:"Oak Wood Arrow Right"},\
                              profile:{name:MHF_ArrowRight}}}},\                                
                 {\
                     maxUses: 1000000,\
@@ -101,7 +102,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Exclamation Mark"}',\
+                            custom_name:{text:"Oak Wood Exclamation Mark"},\
                              profile:{name:MHF_Exclamation}}}},\                            
                 {\
                     maxUses: 1000000,\
@@ -112,7 +113,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Oak Wood Question Mark"}',\
+                            custom_name:{text:"Oak Wood Question Mark"},\
                              profile:{name:MHF_Question}}}},\        
                 {\
                     maxUses: 1000000,\
@@ -123,7 +124,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Chest}',\
+                            custom_name:{text:"Chest"},\
                              profile:{name:MHF_Chest}}}},\        
                 {\
                     maxUses: 1000000,\
@@ -134,7 +135,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Ocelot"}',\
+                            custom_name:{text:"Ocelot"},\
                              profile:{name:MHF_Ocelot}}}},\      
                 {\
                     maxUses: 1000000,\
@@ -145,7 +146,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Sheep (white)"}',\
+                            custom_name:{text:"Sheep (white)"},\
                              profile:{name:MHF_Sheep}}}},\                            
                 {\
                     maxUses: 1000000,\
@@ -156,7 +157,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Pig"}',\
+                            custom_name:{text:"Pig"},\
                              profile:{name:MHF_Pig}}}},\
                 {\
                     maxUses: 1000000,\
@@ -167,7 +168,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Cow"}',\
+                            custom_name:{text:"Cow"},\
                              profile:{name:MHF_Cow}}}},\
                 {\
                     maxUses: 1000000,\
@@ -178,7 +179,7 @@ execute \
                         id: "minecraft:player_head",\
                         count: 1,\
                         components: {\
-                            custom_name:'{"text":"Chicken"}',\
+                            custom_name:{text:"Chicken"},\
                              profile:{name:MHF_Chicken}}}\
                 }\
             ]\

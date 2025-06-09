@@ -2,7 +2,7 @@ tag @e[type=minecraft:villager,name="Marchand de bois"] add spwnWood
 execute \
     at @e[type=minecraft:villager,tag=spwnWood] \
     run data merge entity @e[type=minecraft:villager,tag=spwnWood,distance=..1,limit=1] {\
-        CustomName: '"Marchand de bois"',\
+        CustomName: 'Marchand de bois',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:diamond", count: 1b}, sell: {id: "minecraft:oak_log", count: 64b}, uses: 0, rewardExp: 0b}, \

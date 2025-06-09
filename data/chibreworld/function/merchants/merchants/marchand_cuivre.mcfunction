@@ -1,5 +1,5 @@
 tag @e[type=minecraft:villager,name="Marchand de cuivre"] add spwnCopMerc
-execute at @e[type=minecraft:villager,tag=spwnCopMerc] run data merge entity @e[type=minecraft:villager,tag=spwnCopMerc,distance=..1,limit=1] {VillagerData: {profession: "minecraft:toolsmith"}, CustomName: '"Marchand de cuivre"', Offers: {Recipes: [\
+execute at @e[type=minecraft:villager,tag=spwnCopMerc] run data merge entity @e[type=minecraft:villager,tag=spwnCopMerc,distance=..1,limit=1] {VillagerData: {profession: "minecraft:toolsmith"}, CustomName: 'Marchand de cuivre', Offers: {Recipes: [\
 {maxUses: 1000000, buy: {id: "minecraft:copper_block", count: 1b}, sell: {id: "minecraft:coal", count: 9b}, uses: 0, rewardExp: 0b}, \
 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 4b}, sell: {id: "minecraft:lightning_rod", count: 1b}, uses: 0, rewardExp: 1b}, \
 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 12b}, sell: {id: "minecraft:spyglass", count: 1b}, uses: 0, rewardExp: 1b}, \

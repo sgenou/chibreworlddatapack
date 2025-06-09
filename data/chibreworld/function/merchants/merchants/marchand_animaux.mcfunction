@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnPetMerchant] \
     run data merge entity @e[type=minecraft:villager,tag=spwnPetMerchant,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:shepherd"},\
-        CustomName: '"Marchand d\'animaux de compagnie"',\
+        CustomName: 'Marchand d\'animaux de compagnie',\
         Offers: {\
             Recipes: [\
                 {\

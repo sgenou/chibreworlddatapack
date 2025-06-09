@@ -2,7 +2,7 @@ tag @e[type=minecraft:villager,name="Armurier"] add spwnArmurier
 execute \
     at @e[type=minecraft:villager,tag=spwnArmurier] \
     run data merge entity @e[type=minecraft:villager,tag=spwnArmurier,distance=..1,limit=1] {\
-        CustomName: '"Armurier"',\
+        CustomName: 'Armurier',\
         Offers: {\
             Recipes: [\
                 {\
@@ -30,7 +30,7 @@ execute \
                         id: "minecraft:diamond_sword",\
                         count: 1,\
                         components: {\
-                           "minecraft:custom_name":'{"text":"Umtinarth","bold":true,"color":"gold"}',\
+                           "minecraft:custom_name":{"text":"Umtinarth","bold":true,"color":"gold"},\
                            "minecraft:enchantments": {"minecraft:fire_aspect" : 2, "minecraft:sharpness": 4}}}},\
                 {\
                     maxUses: 1000000,\
@@ -41,7 +41,7 @@ execute \
                         id: "minecraft:netherite_sword",\
                         count: 1,\
                         components: {\
-                           "minecraft:custom_name":'{"text":"Umtizgheul","bold":true,"color":"gold"}',\
+                           "minecraft:custom_name":{"text":"Umtizgheul","bold":true,"color":"gold"},\
                            "minecraft:enchantments": {"minecraft:fire_aspect" : 2, "minecraft:sharpness": 4}}}},\                           
                 {\
                     maxUses: 1000000,\
@@ -53,7 +53,7 @@ execute \
                         count: 1,\
                         components: {\
                             "minecraft:enchantments": {"minecraft:unbreaking" : 3, "minecraft:power": 5},\
-                            "minecraft:custom_name":'{"text":"Arc de diamant", "bold":true, "color":"aqua"}'}}}, \
+                            "minecraft:custom_name":{"text":"Arc de diamant", "bold":true, "color":"aqua"}}}}, \
                 {\
                     maxUses: 1000000,\
                     buy: {\
@@ -64,7 +64,7 @@ execute \
                         count: 1,\
                         components: {\
                             "minecraft:enchantments": {"minecraft:unbreaking" : 3, "minecraft:power": 5, "minecraft:flame": 1, "minecraft:infinity": 1, "minecraft:fire_aspect": 1},\
-                            "minecraft:custom_name":'{"text":"Undomuth", "bold":true, "color":"red"}'}}}, \
+                            "minecraft:custom_name":{"text":"Undomuth", "bold":true, "color":"red"}}}}, \
                 {\
                     maxUses: 1000000,\
                     buy: {\
@@ -79,7 +79,7 @@ execute \
                                 "minecraft:efficiency": 4,\
                                 "minecraft:unbreaking": 3,\
                                 "minecraft:mending": 1},\
-                            "minecraft:custom_name":'{"text":"Pioche épique", "bold":true, "color":"blue"}'}}},\
+                            "minecraft:custom_name":{"text":"Pioche épique", "bold":true, "color":"blue"}}}},\
                 {\
                     maxUses: 1000000,\
                     buy: {\

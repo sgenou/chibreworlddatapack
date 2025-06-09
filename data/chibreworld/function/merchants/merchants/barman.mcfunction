@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spwnBarman] \
     run data merge entity @e[type=minecraft:villager,tag=spwnBarman,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:nitwit"},\
-        CustomName: '"Barman"',\
+        CustomName: 'Barman',\
             Offers: {\
                 Recipes: [\
                     {maxUses: 1000000,\
@@ -11,7 +11,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Tord boyaux","bold":true,"color":"dark_green"}',\
+                            custom_name:{text:"Tord boyaux",bold:true,color:"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:fire_resistance",\
@@ -24,7 +24,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Bon Whisky","bold":true,"color":"dark_green"}',\
+                            custom_name:{text:"Bon Whisky",bold:true,color:"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:fire_resistance",\

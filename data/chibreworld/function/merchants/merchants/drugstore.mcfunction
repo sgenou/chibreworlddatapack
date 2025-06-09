@@ -5,7 +5,7 @@ execute \
         VillagerData: {\
             profession: "minecraft:librarian"\
         },\
-        CustomName: '"Marchand du drugstore"',\
+        CustomName: 'Marchand du drugstore',\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000, buy: {id: "minecraft:coal", count: 1}, sell: {id: "minecraft:chest", count: 1}},\
@@ -37,7 +37,7 @@ execute \
                     sell: {id: "minecraft:potion",\
                         count: 1,\
                         components:{\
-                            custom_name:'{"text":"Potion du mineur","bold":true,"color":"dark_green"}',\
+                            custom_name:{"text":"Potion du mineur","bold":true,"color":"dark_green"},\
                             potion_contents:{\
                                 custom_effects:[{\
                                     id: "minecraft:haste",\
