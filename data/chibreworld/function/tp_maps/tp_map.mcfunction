@@ -5,14 +5,11 @@ tag @e[\
                 id: "minecraft:filled_map",\
                 count: 1,\
                 components: {\
-                    "minecraft:enchantments": {\
-                        show_in_tooltip: 0b,\
-                        levels: {\
-                            "minecraft:unbreaking": 1\
-                        }\
-                    },\
-                    "minecraft:map_id": 330\
-                }\
+                        "minecraft:tooltip_display":{hidden_components:["minecraft:enchantments"]},\
+                        "minecraft:enchantments": {\
+                            "minecraft:unbreaking" : 1},\
+                        "minecraft:map_id": 330\
+                    }\
             },\
             OnGround: 1b}\
         ] \
@@ -27,14 +24,11 @@ tag @e[\
                 id: "minecraft:filled_map",\
                 count: 1,\
                 components: {\
-                    "minecraft:enchantments": {\
-                        show_in_tooltip: 0b,\
-                        levels: {\
-                            "minecraft:unbreaking": 1\
-                        }\
-                    },\
-                    "minecraft:map_id": 285\
-                }\
+                        "minecraft:tooltip_display":{hidden_components:["minecraft:enchantments"]},\
+                        "minecraft:enchantments": {\
+                            "minecraft:unbreaking" : 1},\
+                        "minecraft:map_id": 285\
+                    }\
             },\
             OnGround: 1b}\
         ] \
@@ -49,14 +43,11 @@ tag @e[\
                 id: "minecraft:filled_map",\
                 count: 1,\
                 components: {\
-                    "minecraft:enchantments": {\
-                        show_in_tooltip: 0b,\
-                        levels: {\
-                            "minecraft:unbreaking": 1\
-                        }\
-                    },\
-                    "minecraft:map_id": 287\
-                }\
+                        "minecraft:tooltip_display":{hidden_components:["minecraft:enchantments"]},\
+                        "minecraft:enchantments": {\
+                            "minecraft:unbreaking" : 1},\
+                        "minecraft:map_id": 287\
+                    }\
             },\
             OnGround: 1b}\
         ] \
@@ -269,14 +260,11 @@ tag @e[\
                 id: "minecraft:filled_map",\
                 count: 1,\
                 components: {\
-                    "minecraft:enchantments": {\
-                        show_in_tooltip: 0b,\
-                        levels: {\
-                            "minecraft:unbreaking": 1\
-                        }\
-                    },\
-                    "minecraft:map_id": 37\
-                }\
+                        "minecraft:tooltip_display":{hidden_components:["minecraft:enchantments"]},\
+                        "minecraft:enchantments": {\
+                            "minecraft:unbreaking" : 1},\
+                        "minecraft:map_id": 37\
+                    }\
             },\
             OnGround: 1b}\
         ] \
