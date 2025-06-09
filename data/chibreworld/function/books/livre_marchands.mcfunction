@@ -1,14 +1,14 @@
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",count:1,components:{"minecraft:custom_data":{traders_book:1b}}}}] run item replace entity @s weapon.mainhand with minecraft:written_book[\
     minecraft:lore=[\
-        '"Un livre magique qui permet"',\
-        '"de faire apparaitre un marchand"',\
-        '"précis à l\'emplacement précis du joueur."'\
+        "Un livre magique qui permet",\
+        "de faire apparaitre un marchand",\
+        "précis à l\'emplacement précis du joueur."\
     ],\
-    minecraft:custom_name='{"bold":true,"color":"dark_green","text":"Livre des marchands"}',\
+    minecraft:custom_name={"bold":true,"color":"dark_green","text":"Livre des marchands"},\
     minecraft:custom_data={traders_book: 1b, magic_book: 1b},\
     minecraft:written_book_content={\
                 pages: [\
-                                    '[[\
+                                    [[\
                                         "",\
                                         {\
                                             "text":"Livre des marchands",\
@@ -20,475 +20,475 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",count:1,components:
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n\\n\\n"\
+                                            "text":"\n\n\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Alchimiste",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumAlchimiste"\
+                                                "command":"/trigger sumAlchimiste"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Armurier",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumArmurier"\
+                                                "command":"/trigger sumArmurier"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Aubergiste",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumAubergiste"\
+                                                "command":"/trigger sumAubergiste"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Banquier",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBanquier"\
+                                                "command":"/trigger sumBanquier"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Banquier détail",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBDetail"\
+                                                "command":"/trigger sumBDetail"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Barman",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBarman"\
+                                                "command":"/trigger sumBarman"\
                                             }\                                        
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Boucher",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBoucher"\
+                                                "command":"/trigger sumBoucher"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Boulanger",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBoulanger"\
+                                                "command":"/trigger sumBoulanger"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Bousier",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumBousier"\
+                                                "command":"/trigger sumBousier"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Charboniste",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumCharboniste"\
+                                                "command":"/trigger sumCharboniste"\
                                             }\
                                         }\
-                                    ]]',\
-                                    '[[\
+                                    ]],\
+                                    [[\
                                         {\
                                             "text":"Enchanteur",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumEnchanteur"\
+                                                "command":"/trigger sumEnchanteur"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Figurant",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumFigurant"\
+                                                "command":"/trigger sumFigurant"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Fleuriste",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumFleuriste"\
+                                                "command":"/trigger sumFleuriste"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Joaillier",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumJoaillier"\
+                                                "command":"/trigger sumJoaillier"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand d\'animaux de compagnie",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDACompagnie"\
+                                                "command":"/trigger sumMDACompagnie"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand d\'argile",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDArgile"\
+                                                "command":"/trigger sumMDArgile"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand d\'articles de mine",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDADeMine"\
+                                                "command":"/trigger sumMDADeMine"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand d\'articles magiques",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDAMagiques"\
+                                                "command":"/trigger sumMDAMagiques"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de bois",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeBois"\
+                                                "command":"/trigger sumMDeBois"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de chevaux",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeChevaux"\
+                                                "command":"/trigger sumMDeChevaux"\
                                             }\
                                         }\
-                                    ]]',\
-                                    '[[\
+                                    ]],\
+                                    [[\
                                         {\
                                             "text":"Marchand de cuivre",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumCopperMerc"\
+                                                "command":"/trigger sumCopperMerc"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de disques",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeDisques"\
+                                                "command":"/trigger sumMDeDisques"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de fruits et légumes",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDFEtLegumes"\
+                                                "command":"/trigger sumMDFEtLegumes"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de produits de la mer",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDPDeLaMer"\
+                                                "command":"/trigger sumMDPDeLaMer"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de redstone",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeRedstone"\
+                                                "command":"/trigger sumMDeRedstone"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de tableaux",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeTableaux"\
+                                                "command":"/trigger sumMDeTableaux"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand de têtes",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDeTetes"\
+                                                "command":"/trigger sumMDeTetes"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Marchand du drugstore",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumMDuDrugstore"\
+                                                "command":"/trigger sumMDuDrugstore"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Poissonnier",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumPoissonnier"\
+                                                "command":"/trigger sumPoissonnier"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Serveur",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumServeur"\
+                                                "command":"/trigger sumServeur"\
                                             }\
                                         }\
-                                    ]]',\
-                                    '[[\
+                                    ]],\
+                                    [[\
                                         {\
                                             "text":"Serveur du salon de thé",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumSDSalonDeThe"\
+                                                "command":"/trigger sumSDSalonDeThe"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Tanneur",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumTanneur"\
+                                                "command":"/trigger sumTanneur"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Vendeur de cartes de téléportation",\
                                             "color":"blue",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumVDCDTelep"\
+                                                "command":"/trigger sumVDCDTelep"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n"\
+                                            "text":"\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Vendeur de produits du nether et de l\'end",\
                                             "color":"dark_aqua",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger sumVDPDNEDeLEnd"\
+                                                "command":"/trigger sumVDPDNEDeLEnd"\
                                             }\
                                         }\
-                                    ]]',\
-                                    '[[\
+                                    ]],\
+                                    [[\
                                         {\
                                             "text":"Sélectionne le marchand le plus proche",\
                                             "color":"gold",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger selmerchant"\
+                                                "command":"/trigger selmerchant"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n\\n"\
+                                            "text":"\n\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Supprime le marchand sélectionné le plus proche",\
                                             "color":"red",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger delmerchant"\
+                                                "command":"/trigger delmerchant"\
                                             }\
                                         },\
                                         {\
-                                            "text":"\\n\\n"\
+                                            "text":"\n\n"\
                                         }\
                                     ],\
                                     [\
                                         {\
                                             "text":"Déplacement du marchand",\
                                             "color":"dark_green",\
-                                            "clickEvent":{\
+                                            "click_event":{\
                                                 "action":"run_command",\
-                                                "value":"/trigger movemerchant"\
+                                                "command":"/trigger movemerchant"\
                                             }\
                                         }\
-                                    ]]'\
+                                    ]]\
                                 ],\
                 generation: 2,\
                 resolved: 1b,\
