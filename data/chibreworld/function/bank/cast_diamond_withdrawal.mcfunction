@@ -2,7 +2,7 @@
 particle crit ~ ~ ~
 # Si on trouve une pancarte on ecrit les commandes
 execute if block ~ ~ ~ #minecraft:signs run data merge block ~ ~ ~ {\
-    front_text: {has_glowing_text: 0b, color: "dark_red", messages: ['{"text":""}', '{"bold":true,"text":"Zone de","color":"dark_red"}', '{"bold":true,"text":"retrait","color":"dark_red"}', '{"bold":true,"text":"de diamant","color":"dark_red"}']}, is_waxed: 1b,\
+    front_text: {has_glowing_text: 0b, color: "dark_red", messages: [{"text":""}, {"bold":true,"text":"Zone de","color":"dark_red"}, {"bold":true,"text":"retrait","color":"dark_red"}, {"bold":true,"text":"de diamant","color":"dark_red"}]}, is_waxed: 1b,\
 }
 # Si on trouve une pancarte on pose le porte armure
 execute if block ~ ~ ~ #minecraft:signs run execute align xyz run summon minecraft:armor_stand ~.5 ~ ~.5 {NoGravity: 1b, Invisible: 1b, Tags: ["diamond_withdrawal_zone"]}

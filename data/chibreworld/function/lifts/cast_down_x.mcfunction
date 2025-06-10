@@ -3,7 +3,7 @@ particle crit ~ ~ ~
 # Si on trouve une pancarte on ecrit les commandes
 execute if block ~ ~ ~ #minecraft:signs run \
     data merge block ~ ~ ~ {\
-         front_text: {has_glowing_text: 0b, color: "black", messages: ['{"clickEvent":{"action":"run_command","value":"tag @p add wantlift"},"text":""}', '{"bold":true,"clickEvent":{"action":"run_command","value":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Tags:[\\"downlift\\"]}"},"color":"#0801FF","text":"|"}', '{"bold":true,"color":"#0801FF","text":"V"}', '""']}, is_waxed: 1b, back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""']}\
+         front_text: {has_glowing_text: 0b, color: "black", messages: [{"click_event":{"action":"run_command","command":"tag @p add wantlift"},"text":""}, {"bold":true,"click_event":{"action":"run_command","command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Tags:[\"downlift\"]}"},"color":"#0801FF","text":"|"}, {"bold":true,"color":"#0801FF","text":"V"}, ""]}, is_waxed: 1b, back_text: {has_glowing_text: 0b, color: "black", messages: ["", "", "", ""]}\
     }
 
 # Si on trouve une pancarte on indique qu'on a placé les commandes

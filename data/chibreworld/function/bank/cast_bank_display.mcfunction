@@ -2,7 +2,7 @@
 particle crit ~ ~ ~
 # Si on trouve une pancarte on ecrit les commandes
 execute if block ~ ~ ~ #minecraft:signs run data merge block ~ ~ ~ {\
-    front_text: {has_glowing_text: 0b, color: "dark_red", messages: ['{"text":""}', '{"bold":true,"text":"Zone","color":"dark_red"}', '{"bold":true,"text":"d\'affichage","color":"dark_red"}', '""']}, is_waxed: 1b,\
+    front_text: {has_glowing_text: 0b, color: "dark_red", messages: [{"text":""}, {"bold":true,"text":"Zone","color":"dark_red"}, {"bold":true,"text":"d\'affichage","color":"dark_red"}, ""]}, is_waxed: 1b,\
 }
 
 # Si on trouve une pancarte on pose le porte armure

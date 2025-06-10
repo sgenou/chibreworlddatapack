@@ -27,7 +27,7 @@ execute \
                                 'de détecter des entités',\
                             ],\
                             "minecraft:written_book_content": {\
-                                pages:['[["Prenez un seul livre en main à la fois !"]]'],\
+                                pages:[["Prenez un seul livre en main à la fois !"]],\
                                 resolved: 1b,\
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
@@ -59,7 +59,7 @@ execute \
                                 'précis à l\'emplacement précis du joueur.',\
                             ],\
                             "minecraft:written_book_content": {\
-                                pages:['[["Prenez un seul livre en main à la fois !"]]'],\
+                                pages:[["Prenez un seul livre en main à la fois !"]],\
                                 resolved: 1b,\
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
@@ -90,7 +90,7 @@ execute \
                                 'des pancartes en ascenseurs',\
                             ],\
                             "minecraft:written_book_content": {\
-                                pages:['[["Prenez un seul livre en main à la fois !"]]'],\
+                                pages:[["Prenez un seul livre en main à la fois !"]],\
                                 title: "Livre des ascenseurs",\
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
@@ -121,7 +121,7 @@ execute \
                                 'au fonctionnement d\'une banque.'\
                             ],\
                             "minecraft:written_book_content": {\
-                                pages:['[["Prenez un seul livre en main à la fois !"]]'],\
+                                pages:[["Prenez un seul livre en main à la fois !"]],\
                                 resolved: 1b,\
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
