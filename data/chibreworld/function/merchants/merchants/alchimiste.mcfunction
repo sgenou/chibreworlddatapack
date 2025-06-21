@@ -3,7 +3,7 @@ execute \
     at @e[type=minecraft:villager,tag=spawnAlchimiste] \
     run data merge entity @e[type=minecraft:villager,tag=spawnAlchimiste,distance=..1,limit=1] {\
         VillagerData: {profession: "minecraft:librarian"},\
-        CustomName: 'Alchimiste',\
+        CustomName: "Alchimiste",\
         Offers: {\
             Recipes: [\
                 {maxUses: 1000000,\
@@ -285,9 +285,6 @@ execute \
                                     duration: 9600\
                                 }],\
                                 custom_color:6192150\
-                            },\
-                            display_name:{\
-                                text: "Potion de saut de puce"\
                             }}}},\
                 {maxUses: 1000000,\
                     buy: {id: "minecraft:diamond", count: 1},\

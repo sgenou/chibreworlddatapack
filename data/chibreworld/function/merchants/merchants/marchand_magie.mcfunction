@@ -5,7 +5,7 @@ execute \
         VillagerData: {\
             profession: "minecraft:cleric"\
         },\
-        CustomName: 'Marchand d\'articles magiques',\
+        CustomName: "Marchand d'articles magiques",\
         Offers: {\
             Recipes: [\
                 {\
@@ -17,14 +17,14 @@ execute \
                     sell: {\
                         id: "minecraft:written_book",\
                         components:{\
-                            custom_name:{text:"Livre de détection d\'entités","bold":true,"color":"dark_green"},\
+                            custom_name:{text:"Livre de détection d'entités",bold:true,color:"dark_green"},\
                             custom_data:{\
                                 entity_book:1b,\
                                 magic_book:1b\
                             },\
                             lore:[\
-                                'Un livre magique qui permet',\
-                                'de détecter des entités',\
+                                "Un livre magique qui permet",\
+                                "de détecter des entités"\
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[["Prenez un seul livre en main à la fois !"]],\
@@ -48,15 +48,15 @@ execute \
                     sell: {\
                         id: "minecraft:written_book",\
                         components:{\
-                            custom_name:{text:"Livre des marchands","bold":true,"color":"dark_green"},\
+                            custom_name:{text:"Livre des marchands",bold:true,color:"dark_green"},\
                             custom_data:{\
                                 traders_book:1b,\
                                 magic_book:1b\
                             },\
                             lore:[\
-                                'Un livre magique qui permet',\
-                                'de faire apparaitre un marchand',\
-                                'précis à l\'emplacement précis du joueur.',\
+                                "Un livre magique qui permet",\
+                                "de faire apparaitre un marchand",\
+                                "précis à l'emplacement précis du joueur."\
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[["Prenez un seul livre en main à la fois !"]],\
@@ -80,14 +80,14 @@ execute \
                     sell: {\
                         id: "minecraft:written_book",\
                         components:{\
-                            custom_name:{text:"Livre des ascenseurs","bold":true,"color":"dark_green"},\
+                            custom_name:{text:"Livre des ascenseurs",bold:true,color:"dark_green"},\
                             custom_data:{\
                                 lifts_book:1b,\
                                 magic_book:1b\
                             },\                            
                             lore:[\
-                                'Un livre qui permet de transformer',\
-                                'des pancartes en ascenseurs',\
+                                "Un livre qui permet de transformer",\
+                                "des pancartes en ascenseurs"\
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[["Prenez un seul livre en main à la fois !"]],\
@@ -95,7 +95,7 @@ execute \
                                 author: "ChibWorld Wizard",\
                                 generation: 2,\
                                 "minecraft:lore": [\
-                                    'Un livre qui permet de transformer', 'des pancartes en ascenseurs.'\
+                                    "Un livre qui permet de transformer", "des pancartes en ascenseurs."\
                                 ]\
                             }\
                         }\
@@ -110,15 +110,15 @@ execute \
                     sell: {\
                         id: "minecraft:written_book",\
                         components:{\
-                            custom_name:{text:"Livre d\'installation de banque","bold":true,"color":"dark_green"},\
+                            custom_name:{text:"Livre d'installation de banque",bold:true,color:"dark_green"},\
                             custom_data:{\
                                 bank_book:1b,\
                                 magic_book:1b\
                             },\
                             lore:[\
-                                'Un livre qui permet de mettre',\
-                                'en place les systèmes nécessaire',\
-                                'au fonctionnement d\'une banque.'\
+                                "Un livre qui permet de mettre",\
+                                "en place les systèmes nécessaire",\
+                                "au fonctionnement d'une banque."\
                             ],\
                             "minecraft:written_book_content": {\
                                 pages:[["Prenez un seul livre en main à la fois !"]],\
@@ -142,12 +142,13 @@ execute \
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
                         components:{\
-                            custom_name:'Tente',\
+                            custom_name:"Tente",\
                             lore:[\
-                                'Monte une tente',\
-                                'Clic droit au sol sur un terrain dégagé'\
+                                "Monte une tente",\
+                                "Clic droit au sol sur un terrain dégagé"\
                             ],\
-                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false}\
+                            enchantments:{"minecraft:unbreaking":1},\
+                            tooltip_display:{hidden_components:["minecraft:enchantments"]}\
                         }\
                     }\
                 },\
@@ -161,13 +162,14 @@ execute \
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
                         components:{\
-                            custom_name:'AntiCreeper',\
+                            custom_name:"AntiCreeper",\
                             lore:[\
-                                'Plus de creepers dans un rayon de 16 blocs',\
-                                'Attention spawne un squid a maintenir en vie'\
+                                "Plus de creepers dans un rayon de 16 blocs",\
+                                "Attention spawne un squid a maintenir en vie"\
                             ],\
-                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
-                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
+                            enchantments:{"minecraft:unbreaking":1},\
+                            tooltip_display:{hidden_components:["minecraft:enchantments"]},\
+                            entity_data:{id:"squid",Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                      }\
                 },\
@@ -181,13 +183,14 @@ execute \
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
                         components:{\
-                            custom_name:'AntiSkeleton',\
+                            custom_name:"AntiSkeleton",\
                             lore:[\
-                                'Plus de squelettes dans un rayon de 16 blocs',\
-                                'Attention spawne un squid a maintenir en vie'\
+                                "Plus de squelettes dans un rayon de 16 blocs",\
+                                "Attention spawne un squid a maintenir en vie"\
                             ],\
-                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
-                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
+                            enchantments:{unbreaking:1},\
+                            tooltip_display:{hidden_components:["minecraft:enchantments"]},\
+                            entity_data:{id:"squid",Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                     }\
                 },\
@@ -201,13 +204,14 @@ execute \
                         id: "minecraft:squid_spawn_egg",\
                         count: 1,\
                         components:{\
-                            custom_name:'AntiZombie',\
+                            custom_name:"AntiZombie",\
                             lore:[\
-                                'Plus de zombies dans un rayon de 16 blocs',\
-                                'Attention spawne un squid a maintenir en vie'\
+                                "Plus de zombies dans un rayon de 16 blocs",\
+                                "Attention spawne un squid a maintenir en vie"\
                             ],\
-                            enchantments:{levels:{unbreaking:1},show_in_tooltip:false},\
-                            entity_data:{id:squid,Invulnerable:1b,PersistenceRequired:1b}\
+                            enchantments:{unbreaking:1},\
+                            tooltip_display:{hidden_components:["minecraft:enchantments"]},\
+                            entity_data:{id:"squid",Invulnerable:1b,PersistenceRequired:1b}\
                         }\
                     }\
                 }\
